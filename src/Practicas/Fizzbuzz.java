@@ -1,4 +1,4 @@
-package ArraysCollect;
+package Practicas;
 
 public class Fizzbuzz {
 

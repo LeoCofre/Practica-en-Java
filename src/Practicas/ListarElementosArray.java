@@ -1,4 +1,4 @@
-package ArraysCollect;
+package Practicas;
 
 public class ListarElementosArray {
     public static void main(String[] args) {
