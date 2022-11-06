@@ -28,3 +28,4 @@ fun main() {
         }
         return wordOne.lowercase().toCharArray().sortedArray().contentEquals(wordTwo.lowercase().toCharArray().sortedArray())
     }
+
