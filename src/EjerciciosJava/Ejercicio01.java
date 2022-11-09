@@ -32,4 +32,5 @@ public class Ejercicio01 {
 
 //Variables
 //Entrada
+//Proceso
 //Salida
