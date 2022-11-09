@@ -8,9 +8,11 @@ public class Ejercicio03 {
 
         //Dado el valor de un producto, hallar el IVA (19 %) y el precio de venta.
 
+        //Constantes
+        final float IVA;
+
         //Variables
         float valorProducto, precioVenta;
-        final float IVA;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);

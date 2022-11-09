@@ -6,25 +6,25 @@ public class Ejercicio04 {
 
     public static void main(String[] args) {
 
-        //Hallar la potencia de a", donde <<a>> y <<n» pertenecen a z• (números enteros positivos).
+        //Hallar la potencia de numero ingresando base y exponente,(números enteros positivos).
 
         //Variables
-        short a, n;
-        int p;
+        short base, exponente;
+        int potencia;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
-        System.out.print("a : ");
-        a = teclado.nextShort();
-        System.out.print("n : ");
-        n = teclado.nextShort();
+        System.out.print("Base : ");
+        base = teclado.nextShort();
+        System.out.print("Exponente : ");
+        exponente = teclado.nextShort();
 
         //Proceso
-        p = (int) Math.pow((double) a, (double) n);
+        potencia = (int) Math.pow(base, exponente);
 
         //Salida
         System.out.println("");
-        System.out.println(" Potencia : " + p);
+        System.out.println("Potencia : " + potencia);
 
     }
 }
