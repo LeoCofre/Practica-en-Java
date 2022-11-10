@@ -9,19 +9,19 @@ public class Ejercicio07 {
         //Determinar la suma de los N primeros números enteros positivos
 
         //Variables
-        int n, s;
+        int numero, suma;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Numero: ");
-        n = teclado.nextInt();
+        numero = teclado.nextInt();
 
         //Proceso
-        s = (n * (n + 1)) / 2;
+        suma = (numero * (numero + 1)) / 2;
 
         //Salida
         System.out.println("");
-        System.out.println("Suma: " + s);
+        System.out.println("Suma: " + suma);
 
     }
 }
