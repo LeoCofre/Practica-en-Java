@@ -6,6 +6,9 @@ public class Ejercicio08 {
 
     public static void main(String[] args) {
 
+        //Calcular el interés compuesto generado por un capital depositado durante cierta cantidad de
+        //tiempo, a una tasa de interés determinada.
+
         //Variables
         float c, r, t, i, m;
 
