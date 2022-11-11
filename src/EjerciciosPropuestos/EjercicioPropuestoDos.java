@@ -22,7 +22,7 @@ public class EjercicioPropuestoDos {
             segundoNumero = teclado.nextInt();
         }
 
-        while (segundoNumero >= primerNumero) {
+        while (segundoNumero > primerNumero) {
             System.out.println(segundoNumero);
             segundoNumero = segundoNumero - 1;
         }
