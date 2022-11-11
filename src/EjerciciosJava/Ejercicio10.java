@@ -6,7 +6,7 @@ public class Ejercicio10 {
 
     public static void main(String[] args) {
 
-        //convertir una cantidad de segundos en horas, minutos y segundos.
+        //convertir una cantidad de segundos en horas y el resto en  minutos y segundos.
 
         //Constantes
         final int HORA = 3600;
