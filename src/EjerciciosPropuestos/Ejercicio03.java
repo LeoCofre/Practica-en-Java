@@ -10,24 +10,24 @@ public class Ejercicio03 {
 
         //Constantes
 
-        final float METROS = 1000;
-        final float DECIMETROS = 100;
-        final float CENTIMETROS = 10;
+        final int METROS = 1000;
+        final int DECIMETROS = 100;
+        final int CENTIMETROS = 10;
 
 
         // Variables
-        float milimetros, resultadoMetros, resultadoDecimetros, resultadoCentimetros, resultadoMilimetros;
+        int milimetros, resultadoMetros, resultadoDecimetros, resultadoCentimetros, resultadoMilimetros;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese cantidas de milimetros");
-        milimetros = teclado.nextFloat();
+        milimetros = teclado.nextInt();
 
         //Proceso
         resultadoMetros = milimetros / METROS;
-        milimetros = milimetros % METROS;
+        milimetros %= METROS;
         resultadoDecimetros = milimetros / DECIMETROS;
-        milimetros = milimetros % DECIMETROS;
+        milimetros %= DECIMETROS;
         resultadoCentimetros = milimetros / CENTIMETROS;
         resultadoMilimetros = milimetros % CENTIMETROS;
 
