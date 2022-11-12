@@ -13,6 +13,7 @@ public class Ejercicio08 {
         float c, r, t, i, m;
 
         //Entrada
+
         Scanner teclado = new Scanner(System.in);
         System.out.print("Capital: ");
         c = teclado.nextFloat();

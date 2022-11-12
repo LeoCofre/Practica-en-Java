@@ -13,24 +13,24 @@ public class Ejercicio10 {
         final int MINUTO = 60;
 
         //Variables
-        int tiempo, hora, minuto, segundo;
+        int segundos, resultadoHora, resultadoMinuto, resultadoSegundo;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.println("Tiempo en segundos");
-        tiempo = teclado.nextInt();
+        segundos = teclado.nextInt();
 
         //Proceso
-        hora = tiempo / HORA;
-        tiempo = tiempo % HORA;
-        minuto = tiempo / MINUTO;
-        segundo = tiempo % MINUTO;
+        resultadoHora = segundos / HORA;
+        segundos = segundos % HORA;
+        resultadoMinuto = segundos / MINUTO;
+        resultadoSegundo = segundos % MINUTO;
 
         //Salida
         System.out.println("");
-        System.out.println("Horas: " + hora);
-        System.out.println("Minutos: " + minuto);
-        System.out.println("Segundos: " + segundo);
+        System.out.println("Horas: " + resultadoHora);
+        System.out.println("Minutos: " + resultadoMinuto);
+        System.out.println("Segundos: " + resultadoSegundo);
 
     }
 }
