@@ -31,7 +31,6 @@ public class Ejercicio03 {
         resultadoCentimetros = milimetros / CENTIMETROS;
         resultadoMilimetros = milimetros % CENTIMETROS;
 
-
         //Salida
         System.out.println("Metros: " + resultadoMetros);
         System.out.println("Decimetros: " + resultadoDecimetros);
