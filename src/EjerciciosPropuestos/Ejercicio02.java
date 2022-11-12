@@ -2,7 +2,7 @@ package EjerciciosPropuestos;
 
 import java.util.Scanner;
 
-public class EjercicioPropuestoDos {
+public class Ejercicio02 {
     public static void main(String[] args) {
 
         //Dado dos números enteros, determinar cuántos números enteros están incluidos en ellos.
