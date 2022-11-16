@@ -25,8 +25,8 @@ public class Ejercicio07 {
 
 
         //Salida
-        System.out.println("La cantidad de horas ingresadas equivale a: " + resultadoMinuto + "minutos y "
-                + resultadoSegundo + "segundos");
+        System.out.println("La cantidad de horas ingresadas equivale a: " + resultadoMinuto + " minutos y "
+                + resultadoSegundo + " segundos");
 
     }
 }
