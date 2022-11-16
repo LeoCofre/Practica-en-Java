@@ -21,9 +21,8 @@ public class Ejercicio07 {
 
         //Proceso
         resultadoMinuto = horas * minuto;
-        resultadoSegundo = (horas % minuto) - horas;
-       /* horas = resultadoSegundo * segundo;
-        horas = resultadoSegundo % segundo;*/
+        resultadoSegundo = horas * segundo;
+
 
         //Salida
         System.out.println("La cantidad de horas ingresadas equivale a: " + resultadoMinuto + "minutos y "
