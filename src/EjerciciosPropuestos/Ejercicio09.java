@@ -1,0 +1,28 @@
+package EjerciciosPropuestos;
+
+import java.util.Scanner;
+
+public class Ejercicio09 {
+
+    public static void main(String[] args) {
+
+        //Hallar el área y el perímetro de un rectángulo.
+
+        //Variables
+        int ladoUno, ladoDos, area, perimetro;
+
+        //Entrada
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese valor de lado 1: ");
+        ladoUno = teclado.nextInt();
+        System.out.println("Ingrese valos de ldo 2");
+        ladoDos = teclado.nextInt();
+
+        //Proceso
+        area =  ladoUno * ladoDos;
+        perimetro = 2 * (ladoUno + ladoDos);
+
+        //Salida
+        System.out.println("");
+    }
+}
