@@ -36,6 +36,7 @@ public class Ejercicio16 {
         }
 
         //Salida
+        System.out.println("");
         System.out.println("El numero mayor es: " + numeroMayor);
     }
 }
