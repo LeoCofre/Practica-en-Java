@@ -25,6 +25,7 @@ public class Ejercicio15 {
         }
 
         //Salida
+        System.out.println("");
         System.out.println("El numero ingresado "  + respuesta);
 
     }
