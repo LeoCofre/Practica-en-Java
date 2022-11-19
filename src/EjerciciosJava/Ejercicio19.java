@@ -11,7 +11,7 @@ public class Ejercicio19 {
         el monto del descuento, el impuesto y el importe a pagar.*/
 
         //Constantes
-        final float DESCUENTO_DIEZ_PORCIENTO = 00.1F;
+        final float DESCUENTO_DIEZ_PORCIENTO = 0.1F;
         final float DESCUENTO_VEINTE_PORCIENTO = 0.2F;
         final float IVA = 0.19F;
 
@@ -20,7 +20,7 @@ public class Ejercicio19 {
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Consumo : ");
+        System.out.print("Ingrese monto de consumo: ");
         consumo = teclado.nextFloat();
 
         //Proceso
@@ -36,8 +36,8 @@ public class Ejercicio19 {
         //Salida
         System.out.println(" ");
         System.out.println("Monto descuento : " + montoDescuento);
-        System.out.println(" Impuesto IGV : " + montoIva);
-        System.out.println("Importe a pagar : " + total);
+        System.out.println("Impuesto IVA : " + montoIva);
+        System.out.println("Total a pagar : " + total);
 
     }
 }
