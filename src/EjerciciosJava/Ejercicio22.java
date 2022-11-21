@@ -13,5 +13,14 @@ public class Ejercicio22 {
                             descuento              recargo
         Cliente general (G)     15 %                10%
         Cliente afiliado (A)    20%                 5%*/
+
+
+        //Constantes
+        final float DESC_G = 0.15F;
+        final float DESC_A = 0.2F;
+        final float REC_G = 0.1F;
+        final float REC_A = 0.05F;
     }
+
+
 }
