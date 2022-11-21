@@ -25,20 +25,38 @@ public class Ejercicio22 {
 
         //Variables
         float mc, m, tp;
-        char te, fp;
+        char tc, fp;
         String r;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Monto de compra : ");
         mc = teclado.nextFloat();
-        System.out.print(" Tipo de cli ente : ");
-        te = teclado.next().charAt(0);
+        System.out.print(" Tipo de cliente : ");
+        tc = teclado.next().charAt(0);
         System.out.print(" Forma de pago : ");
         fp = teclado.next().charAt(0);
 
-
+        //Proceso
+        if (tc == 'G') {
+            if (fp == 'C') {
+                m = mc * DESC_G;
+                tp = mc - m;
+                r = "DESCUENTO 15%";
+            } else {
+                m = mc * REC_G;
+                tp = mc + m;
+                r = " RECARGO 10% u";
+            }
+            if (fp == 'C') {
+                m = mc * DESC_A;
+                tp = mc - m;
+                r = "DESCUENTO 20%";
+            } else {
+                m = mc * REC_A;
+                tp = mc + m;
+                r = " RECARGO 5%";
+            }
+        }
     }
-
-
 }
