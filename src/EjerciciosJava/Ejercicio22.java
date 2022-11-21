@@ -24,9 +24,9 @@ public class Ejercicio22 {
         final float REC_A = 0.05F;
 
         //Variables
-        float mc, m, tp;
+        float mc, m = 0, tp = 0;
         char tc, fp;
-        String r;
+        String r = "";
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
@@ -46,7 +46,8 @@ public class Ejercicio22 {
             } else {
                 m = mc * REC_G;
                 tp = mc + m;
-                r = " RECARGO 10% u";
+                r =
+                        " RECARGO 10% ";
             }
             if (fp == 'C') {
                 m = mc * DESC_A;
@@ -58,5 +59,9 @@ public class Ejercicio22 {
                 r = " RECARGO 5%";
             }
         }
+        //Salida
+        System.out.println("");
+        System.out.println(r + " : " + m);
+        System.out.println(" Total a pagar : " + tp);
     }
 }
