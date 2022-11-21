@@ -1,5 +1,7 @@
 package EjerciciosJava;
 
+import java.util.Scanner;
+
 public class Ejercicio22 {
 
     public static void main(String[] args) {
@@ -22,9 +24,18 @@ public class Ejercicio22 {
         final float REC_A = 0.05F;
 
         //Variables
-        float mc , m, tp;
+        float mc, m, tp;
         char te, fp;
-        String r ;
+        String r;
+
+        //Entrada
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Monto de compra : ");
+        mc = teclado.nextFloat();
+        System.out.print(" Tipo de cli ente : ");
+        te = teclado.next().charAt(0);
+        System.out.print(" Forma de pago : ");
+        fp = teclado.next().charAt(0);
 
 
     }
