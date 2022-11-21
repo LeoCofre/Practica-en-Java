@@ -20,6 +20,13 @@ public class Ejercicio22 {
         final float DESC_A = 0.2F;
         final float REC_G = 0.1F;
         final float REC_A = 0.05F;
+
+        //Variables
+        float mc , m, tp;
+        char te, fp;
+        String r ;
+
+
     }
 
 
