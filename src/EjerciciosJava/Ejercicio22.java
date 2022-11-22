@@ -18,50 +18,49 @@ public class Ejercicio22 {
 
 
         //Constantes
-        final float DESC_G = 0.15F;
-        final float DESC_A = 0.2F;
-        final float REC_G = 0.1F;
-        final float REC_A = 0.05F;
+        final float DESCUENTO_GENERAL = 0.15F;
+        final float DESCUENTO_ASOCIADO = 0.2F;
+        final float RECARGO_GENERAL = 0.1F;
+        final float RECARGO_ASOCIADO = 0.05F;
 
         //Variables
-        float mc, m = 0, tp = 0;
-        char tc, fp;
-        String r = "";
+        float montoCompra, montoDescRecargo = 0, pagoTotal = 0;
+        char tipoCliente, formaPago;
+        String respuesta = "";
 
         //Entrada
-        Scanner teclado = new Scanner(System.in);
-        System.out.print("Monto de compra : ");
-        mc = teclado.nextFloat();
-        System.out.print(" Tipo de cliente : ");
-        tc = teclado.next().charAt(0);
-        System.out.print(" Forma de pago : ");
-        fp = teclado.next().charAt(0);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Monto de compra: ");
+        montoCompra = scanner.nextFloat();
+        System.out.print("Tipo de cliente : ");
+        tipoCliente = scanner.next().charAt(0);
+        System.out.print("Forma de pago : ");
+        formaPago = scanner.next().charAt(0);
 
         //Proceso
-        if (tc == 'G') {
-            if (fp == 'C') {
-                m = mc * DESC_G;
-                tp = mc - m;
-                r = "DESCUENTO 15%";
+        if (tipoCliente == 'G') {
+            if (formaPago == 'C') {
+                montoDescRecargo = montoCompra * DESCUENTO_GENERAL;
+                pagoTotal = montoCompra - montoDescRecargo;
+                respuesta = "DESCUENTO 15%";
             } else {
-                m = mc * REC_G;
-                tp = mc + m;
-                r =
-                        " RECARGO 10% ";
+                montoDescRecargo = montoCompra * RECARGO_GENERAL;
+                pagoTotal = montoCompra + montoDescRecargo;
+                respuesta = "RECARGO 10% ";
             }
-            if (fp == 'C') {
-                m = mc * DESC_A;
-                tp = mc - m;
-                r = "DESCUENTO 20%";
+            if (formaPago == 'C') {
+                montoDescRecargo = montoCompra * DESCUENTO_ASOCIADO;
+                pagoTotal = montoCompra - montoDescRecargo;
+                respuesta = "DESCUENTO 20%";
             } else {
-                m = mc * REC_A;
-                tp = mc + m;
-                r = " RECARGO 5%";
+                montoDescRecargo = montoCompra * RECARGO_ASOCIADO;
+                pagoTotal = montoCompra + montoDescRecargo;
+                respuesta = " RECARGO 5%";
             }
         }
         //Salida
         System.out.println("");
-        System.out.println(r + " : " + m);
-        System.out.println(" Total a pagar : " + tp);
+        System.out.println(respuesta + " : " + montoDescRecargo);
+        System.out.println(" Total a pagar : " + pagoTotal);
     }
 }
