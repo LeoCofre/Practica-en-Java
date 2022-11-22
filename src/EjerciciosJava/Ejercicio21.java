@@ -39,8 +39,8 @@ public class Ejercicio21 {
         }
 
         //Salida
-        System.out.println ("") ;
-        System.out.println( "Clima : " + c ) ;
+        System.out.println("");
+        System.out.println("Clima : " + c);
 
 
     }
