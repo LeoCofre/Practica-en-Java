@@ -27,11 +27,11 @@ public class Ejercicio24 {
         } else {
             x1 = 0;
             x2 = 0;
-
         }
 
         //Salida
         System.out.println("");
-        System.out.println("x1: "  );
+        System.out.println("x1: " + x1);
+        System.out.println("x2: " + x2);
     }
 }
