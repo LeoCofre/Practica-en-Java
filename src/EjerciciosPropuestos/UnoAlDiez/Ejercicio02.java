@@ -1,4 +1,4 @@
-package EjerciciosPropuestos;
+package EjerciciosPropuestos.UnoAlDiez;
 
 import java.util.Scanner;
 
