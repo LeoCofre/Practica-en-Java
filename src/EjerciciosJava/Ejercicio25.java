@@ -21,19 +21,19 @@ public class Ejercicio25 {
         segundo = scanner.nextInt();
 
         //Proceso
-        segundo = segundo + 1;
+        segundo += 1;
 
         if (segundo == 60) {
             segundo = 0;
-            minuto = minuto + 1;
+            minuto += 1;
             if (minuto == 60) {
                 minuto = 0;
-                hora = hora + 1;
+                hora += 1;
             }
         }
 
         //Salida
-        System.out.println("Horas: " + hora + " Minutos: " + minuto + "Segundos");
+        System.out.println("Horas: " + hora + " Minutos: " + minuto + "Segundos" + segundo);
 
 
     }
