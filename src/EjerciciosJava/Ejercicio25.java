@@ -36,6 +36,7 @@ public class Ejercicio25 {
         }
 
         //Salida
+        System.out.println("");
         System.out.println("Horas: " + hora);
         System.out.println("Minutos: " + minuto);
         System.out.println("Segundos: " + segundo);
