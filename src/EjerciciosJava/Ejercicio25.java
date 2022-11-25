@@ -16,7 +16,18 @@ public class Ejercicio25 {
         System.out.println("Ingrese hora: ");
         hora = scanner.nextInt();
         System.out.println("Ingrese minuto: ");
+        minuto = scanner.nextInt();
+        System.out.println("Ingrese segundo: ");
+        segundo = scanner.nextInt();
 
+        //Proceso
+        segundo = segundo + 1;
+
+        if (segundo == 60) {
+            segundo = 0;
+            minuto = minuto + 1;
+
+        }
 
 
     }
