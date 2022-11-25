@@ -29,11 +29,16 @@ public class Ejercicio25 {
             if (minuto == 60) {
                 minuto = 0;
                 hora += 1;
+                if (hora == 24) {
+                    hora = 0;
+                }
             }
         }
 
         //Salida
-        System.out.println("Horas: " + hora + " Minutos: " + minuto + "Segundos" + segundo);
+        System.out.println("Horas: " + hora);
+        System.out.println("Minutos: " + minuto);
+        System.out.println("Segundos: " + segundo);
 
 
     }
