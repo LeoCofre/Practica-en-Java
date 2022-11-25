@@ -1,4 +1,4 @@
-package EjerciciosJava;
+package EjerciciosJava.VeintiunoAlVenticinco;
 
 import java.util.Scanner;
 
