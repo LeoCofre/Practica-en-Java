@@ -9,6 +9,16 @@ public class Ejercicio11 {
 
         //Variables
         int edad;
+        String respuesta = "";
+
+        //Entrada
+        System.out.println();
+
+
+        //Proceso
+
+
+
 
     }
 }
