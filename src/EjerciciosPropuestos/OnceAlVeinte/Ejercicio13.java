@@ -9,6 +9,7 @@ public class Ejercicio13 {
         // Dados dos números, determinar si son iguales o son diferentes.
 
         //Variables
+        int primerNumero, segundoNumero;
 
 
         //Proceso
