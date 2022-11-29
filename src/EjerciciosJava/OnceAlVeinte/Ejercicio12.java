@@ -14,6 +14,7 @@ public class Ejercicio12 {
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese un número");
         numero = scanner.nextInt();
 
         //Proceso
@@ -29,7 +30,7 @@ public class Ejercicio12 {
 
         //Salida
         System.out.println("");
-        System.out.println("Re sultad o : " + respuesta);
+        System.out.println("Resultado : " + respuesta);
 
 
     }

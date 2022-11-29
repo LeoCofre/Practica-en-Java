@@ -28,7 +28,5 @@ public class Ejercicio13 {
 
         //Salida
         System.out.println("Los números ingresados son " + respuesta);
-
-
     }
 }
