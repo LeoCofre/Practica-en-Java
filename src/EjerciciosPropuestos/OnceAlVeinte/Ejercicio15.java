@@ -7,6 +7,8 @@ public class Ejercicio15 {
        /*Crear un programa que al ingresar tres números enteros devuelva los números ordenados en
          forma ascendente y en forma descendente.*/
 
+        //Variables
+        int primerNumero, segundoNumero, tercerNumero;
 
     }
 }
