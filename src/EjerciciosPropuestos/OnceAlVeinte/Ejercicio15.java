@@ -11,7 +11,7 @@ class Ejercicio15 {
 
         //Variables
         int primerNumero, segundoNumero, tercerNumero;
-        String ordenAscendente, ordenDesendente;
+        String ordenAscendente, ordenDesendente = null;
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
@@ -31,7 +31,7 @@ class Ejercicio15 {
                     ordenDesendente = ("Orden descendente: " + primerNumero + " " + segundoNumero + " " + tercerNumero);
                 } else {
                     ordenAscendente = ("Orden Ascendente: " + primerNumero + " " + tercerNumero + " " + segundoNumero);
-                   ordenDesendente = ("Orden descendente: " + segundoNumero + " " + tercerNumero + " " + primerNumero);
+                    ordenDesendente = ("Orden descendente: " + segundoNumero + " " + tercerNumero + " " + primerNumero);
                 }
             } else {
                 ordenAscendente = ("Orden Ascendente: " + segundoNumero + " " + primerNumero + " " + tercerNumero);
@@ -51,8 +51,12 @@ class Ejercicio15 {
                 ordenDesendente = ("Orden descendente: " + tercerNumero + " " + segundoNumero + " " + primerNumero);
             }
         }
-    }
 
+        //Salida
+        System.out.println(ordenAscendente);
+        System.out.println(ordenDesendente);
+    }
+}
 
 
         /*Ejercicio15 fc = new Ejercicio15();
@@ -103,4 +107,4 @@ class Ejercicio15 {
             }
         }
     }*/
-}
+
