@@ -15,7 +15,11 @@ public class Ejercicio16 {
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese  primera nota; ");
-
+        System.out.println("Ingrese  primera nota: ");
+        primeraNota = scanner.nextInt();
+        System.out.println("Ingrese segunda nota: ");
+        segundaNota = scanner.nextInt();
+        System.out.println("Ingrese tercera nota: ");
+        terceraNota = scanner.nextInt();
     }
 }
