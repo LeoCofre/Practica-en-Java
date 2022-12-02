@@ -21,5 +21,10 @@ public class Ejercicio16 {
         segundaNota = scanner.nextInt();
         System.out.println("Ingrese tercera nota: ");
         terceraNota = scanner.nextInt();
+        System.out.println("Ingrese cuarta nota: ");
+        cuartaNota = scanner.nextInt();
+
+        //Proceso
+
     }
 }
