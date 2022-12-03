@@ -13,7 +13,10 @@ public class Ejercicio17 {
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese ");
+        System.out.println("Bienvenido ");
+        System.out.println("Elija una opcíon: ");
+        System.out.println("R : Retirar" );
+        System.out.println("D : Depositar");
     }
 
 }
