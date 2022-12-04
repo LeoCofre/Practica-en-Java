@@ -9,7 +9,10 @@ public class Ejercicio17 {
         (deposito) y monto de la transacción, obtener como dato de salida el saldo actual.*/
 
         //Variables
-        int saldoAnterior, tipoMovimiento, retiro, movimiento, monto, saldoActual;
+        //int saldoAnterior, tipoMovimiento, retiro, movimiento, monto, saldoActual;
+
+        int sa,mt,sactual=0;
+        char tm;
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
@@ -17,6 +20,9 @@ public class Ejercicio17 {
         System.out.println("Elija una opcíon: ");
         System.out.println("R : Retirar" );
         System.out.println("D : Depositar");
+
+        //Proceso
+
     }
 
 }
