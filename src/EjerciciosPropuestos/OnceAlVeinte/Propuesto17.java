@@ -10,13 +10,13 @@ public class Propuesto17 {
         (deposito) y monto de la transacción, obtener como dato de salida el saldo actual.*/
 
         //Variables
-        int montoAnterior, montoTransaccion, saldoActual = 0;
+        int saldoAnterior, montoTransaccion, saldoActual = 0;
         char tipoMovimiento;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Ingrese Saldo");
-        montoAnterior = teclado.nextInt();
+        saldoAnterior = teclado.nextInt();
         System.out.print("Ingrese el Tipo de Movimiento");
         tipoMovimiento = teclado.next().charAt(0);
         System.out.print("IngreseMonto");
@@ -24,15 +24,15 @@ public class Propuesto17 {
 
         //Proceso
         if (tipoMovimiento == 'R') {
-            saldoActual = montoAnterior - montoTransaccion;
+            saldoActual = saldoAnterior - montoTransaccion;
         } else {
             if (tipoMovimiento == 'D') {
-                saldoActual = montoAnterior + montoTransaccion;
+                saldoActual = saldoAnterior + montoTransaccion;
             }
         }
         //Salida
         System.out.println("");
-        System.out.print("Es: " + saldoActual);
+        System.out.print("El saldo actúal es : " + saldoActual);
     }
 
 }
