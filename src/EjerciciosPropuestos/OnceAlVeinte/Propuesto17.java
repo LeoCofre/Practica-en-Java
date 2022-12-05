@@ -20,14 +20,14 @@ public class Propuesto17 {
         System.out.print("Ingrese el Tipo de Movimiento");
         tipoMovimiento = teclado.next().charAt(0);
         System.out.print("IngreseMonto");
-        tipoMovimiento = teclado.next().charAt(0);
+        montoTransaccion = teclado.next().charAt(0);
 
         //Proceso
         if (tipoMovimiento == 'R') {
-            saldoActual = montoAnterior - tipoMovimiento;
+            saldoActual = montoAnterior - montoTransaccion;
         } else {
             if (tipoMovimiento == 'D') {
-                saldoActual = montoAnterior + tipoMovimiento;
+                saldoActual = montoAnterior + montoTransaccion;
             }
         }
         //Salida
