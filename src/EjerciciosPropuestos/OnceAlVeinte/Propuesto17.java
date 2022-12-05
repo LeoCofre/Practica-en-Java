@@ -2,7 +2,7 @@ package EjerciciosPropuestos.OnceAlVeinte;
 
 import java.util.Scanner;
 
-public class Ejercicio17 {
+public class Propuesto17 {
 
     public static void main(String[] args) {
 
