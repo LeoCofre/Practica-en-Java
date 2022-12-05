@@ -2,7 +2,7 @@ package EjerciciosPropuestos.UnoAlDiez;
 
 import java.util.Scanner;
 
-public class Ejercicio01 {
+public class Propuesto01 {
     public static void main(String[] args) {
 
         //Dado dos números enteros (Z), a y b, hallar a + by a- b.

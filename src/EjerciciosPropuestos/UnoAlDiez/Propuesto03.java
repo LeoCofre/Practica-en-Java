@@ -2,7 +2,7 @@ package EjerciciosPropuestos.UnoAlDiez;
 
 import java.util.Scanner;
 
-public class Ejercicio03 {
+public class Propuesto03 {
     public static void main(String[] args) {
 
         //Dada una cantidad de milímetros, expresarlo en la máxima cantidad de metros, el resto en

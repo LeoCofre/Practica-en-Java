@@ -2,7 +2,7 @@ package EjerciciosPropuestos.UnoAlDiez;
 
 import java.util.Scanner;
 
-public class Ejercicio02 {
+public class Propuesto02 {
     public static void main(String[] args) {
 
         //Dado dos números enteros, determinar cuántos números enteros están incluidos en ellos.
