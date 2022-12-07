@@ -9,5 +9,8 @@ public class Propuesto20 {
         T. Isósceles: Tiene dos lados iguales.
         T. Escaleno: Sus tres lados son diferentes.*/
 
+        //Variables
+
+
     }
 }
