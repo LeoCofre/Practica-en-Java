@@ -18,14 +18,22 @@ public class Ejercicio29 {
         letra = teclado.next().charAt(0);
 
         //Proceso
-        if (letra == 'a' || letra == 'A')
-            respuesta = "La letra ingresada es una vocal";
-        else if (letra == 'e' || letra == 'E') {
-            respuesta = "La letra ingresada es una vocal";
-             if (letra == 'i' || letra == 'I') {
-                respuesta = "La letra ingresada es una vocal";
-            }
+        if (letra == 'a' || letra == 'A') {
+            respuesta = "ES VOCAL";
+        } else if (letra == 'e' || letra == 'E')
+            respuesta = "ES VOCAL";
+        else if (letra == 'i' || letra == 'I')
+            respuesta = "ES VOCAL";
+        else if (letra == 'o' || letra == 'O')
+            respuesta = "ES VOCAL";
+        else if (letra == 'u' || letra == 'U')
+            respuesta = "ES VOCAL";
+        else
+            respuesta = "NO ES VOCAL";
 
-        }
+        //Salida
+        System.out.println("");
+        System.out.println("La letra ingresada " + respuesta);
+
     }
 }
