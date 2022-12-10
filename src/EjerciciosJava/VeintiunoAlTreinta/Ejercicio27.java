@@ -29,7 +29,7 @@ public class Ejercicio27 {
                 numeroEnLetras = "DOS";
                 break;
             case 3:
-                numeroEnLetras = " TRES";
+                numeroEnLetras = "TRES";
                 break;
             case 4:
                 numeroEnLetras = "CUATRO";
