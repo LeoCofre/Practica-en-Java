@@ -22,7 +22,7 @@ public class Ejercicio29 {
             respuesta = "La letra ingresada es una vocal";
         else if (letra == 'e' || letra == 'E') {
             respuesta = "La letra ingresada es una vocal";
-            else if (letra == 'i' || letra == 'I') {
+             if (letra == 'i' || letra == 'I') {
                 respuesta = "La letra ingresada es una vocal";
             }
 
