@@ -20,7 +20,6 @@ public class Ejercicio27 {
         //Proceso
         switch (numero) {
             case 0:
-
                 numeroEnLetras = "CERO";
                 break;
             case 1:
@@ -50,7 +49,8 @@ public class Ejercicio27 {
             case 9:
                 numeroEnLetras = " NUEVE";
                 break;
-
         }
+        System.out.println("");
+        System.out.println("El número ingresado es: " + numeroEnLetras);
     }
 }
