@@ -12,13 +12,38 @@ public class Ejercicio28 {
 
         //Variables
         char operador;
-        int primerNumero, segundoNumero, resultado;
+        int primerNumero, segundoNumero, resultado = 0;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese tipo de operación");
-        System.out.println("");
+        System.out.println("Suma +");
+        System.out.println("Resta -");
+        System.out.println("División /");
+        System.out.println("Multiplicación *");
+        operador = teclado.next().charAt(0);
+        System.out.println("Ingrese un número: ");
+        primerNumero = teclado.nextInt();
+        System.out.println("Ingrese otro número: ");
+        segundoNumero = teclado.nextInt();
 
+        //Proceso
+        if (operador == '+') {
+            resultado = primerNumero + segundoNumero;
+        } else if (operador == '-') {
+            resultado = primerNumero - segundoNumero;
+        } else if (operador == '*') {
+            resultado = primerNumero * segundoNumero;
+        } else if (operador == '/') {
+            if (segundoNumero != 0) {
+                resultado = primerNumero / segundoNumero;
+            } else
+                resultado = 0;
+        }
+
+        //Salida
+        System.out.println("");
+        System.out.println("El resultado es: " + resultado);
 
 
     }
