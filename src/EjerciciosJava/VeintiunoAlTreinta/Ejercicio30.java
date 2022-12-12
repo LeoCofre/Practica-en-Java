@@ -1,5 +1,7 @@
 package EjerciciosJava.VeintiunoAlTreinta;
 
+import java.util.Scanner;
+
 public class Ejercicio30 {
 
     public static void main(String[] args) {
@@ -12,6 +14,15 @@ public class Ejercicio30 {
         10, 11, 12 Primavera*/
 
         //Variables
+        int mes;
+        String estacion = "";
+
+        //Entrada
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese un número de mes del 1 al 12: ");
+        mes = teclado.nextInt();
+
+
 
     }
 }
