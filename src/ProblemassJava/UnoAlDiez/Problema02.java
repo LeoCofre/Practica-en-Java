@@ -2,7 +2,7 @@ package ProblemassJava.UnoAlDiez;
 
 import java.util.Scanner;
 
-public class Ejercicio02 {
+public class Problema02 {
     public static void main(String[] args) {
 
         //Hallar el cociente y el residuo (resto) de dos números enteros.

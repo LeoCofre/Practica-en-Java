@@ -2,7 +2,7 @@ package ProblemassJava.UnoAlDiez;
 
 import java.util.Scanner;
 
-public class Ejercicio10 {
+public class Problema10 {
 
     public static void main(String[] args) {
 

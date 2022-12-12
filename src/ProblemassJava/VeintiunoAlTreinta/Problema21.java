@@ -2,7 +2,7 @@ package ProblemassJava.VeintiunoAlTreinta;
 
 import java.util.Scanner;
 
-public class Ejercicio21 {
+public class Problema21 {
 
     public static void main(String[] args) {
 

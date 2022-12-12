@@ -2,7 +2,7 @@ package ProblemassJava.UnoAlDiez;
 
 import java.util.Scanner;
 
-public class Ejercicio06 {
+public class Problema06 {
     public static void main(String[] args) {
         // Dado un número de 5 dígitos, devolver el número en orden inverso.
 

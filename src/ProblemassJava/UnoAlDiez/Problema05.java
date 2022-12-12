@@ -2,7 +2,7 @@ package ProblemassJava.UnoAlDiez;
 
 import java.util.Scanner;
 
-public class Ejercicio05 {
+public class Problema05 {
 
     public static void main(String[] args) {
         // Hallar la radicación, donde <<a» y «n>> pertenecen a z• (números enteros positivos).
