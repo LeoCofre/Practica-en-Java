@@ -32,14 +32,23 @@ public class Ejercicio30 {
             case 4:
             case 5:
             case 6:
-                estacion ="Otoño";
+                estacion = "Otoño";
                 break;
             case 7:
             case 8:
-
-
+            case 9:
+                estacion = "Invierno";
+                break;
+            case 10:
+            case 11:
+            case 12:
+                estacion = "Primavera";
+                break;
         }
 
+        //Salida
+        System.out.println("");
+        System.out.println("El número de mes ingresado corresponde a la estacion de " + estacion);
 
     }
 }
