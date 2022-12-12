@@ -22,6 +22,23 @@ public class Ejercicio30 {
         System.out.println("Ingrese un número de mes del 1 al 12: ");
         mes = teclado.nextInt();
 
+        //Proceso
+        switch (mes) {
+            case 1:
+            case 2:
+            case 3:
+                estacion = "Verano";
+                break;
+            case 4:
+            case 5:
+            case 6:
+                estacion ="Otoño";
+                break;
+            case 7:
+            case 8:
+
+
+        }
 
 
     }
