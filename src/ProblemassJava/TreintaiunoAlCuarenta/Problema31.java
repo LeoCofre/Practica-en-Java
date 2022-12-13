@@ -55,6 +55,7 @@ public class Problema31 {
             case 19:
             case 20:
                 categoria = "Excelente";
+                break;
 
         }
 
