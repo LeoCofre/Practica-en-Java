@@ -24,39 +24,19 @@ public class Problema31 {
         System.out.println("Ingrese promedio de notas obtenido");
         promedioNotas = teclado.nextInt();
 
-        //Proceso
-        switch (promedioNotas) {
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-                categoria = "Pésimo";
-                break;
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-                categoria = "Malo";
-                break;
-            case 11:
-            case 12:
-            case 13:
-            case 14:
-                categoria = "Regular";
-                break;
-            case 15:
-            case 16:
-            case 17:
-                categoria = "Bueno";
-                break;
-            case 18:
-            case 19:
-            case 20:
-                categoria = "Excelente";
-                break;
 
+        //Proceso
+        if(promedioNotas >= 0 && promedioNotas <= 5) {
+            categoria= " PESIMO";
+        }else if(promedioNotas >= 6 && promedioNotas <= 10) (
+                categoria = " MALO";
+    }else if ( >= 11 && p <= 14) {
+        ca =
+                " REGULAR";
+    }else if(p >= 15 && p <= 17) {
+        e = "BUENO";
+    }else if(p >= 18 && p <= 20) {
+        e = " EXCELENTE";
         }
 
         //Salida
