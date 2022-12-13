@@ -17,7 +17,7 @@ public class Problema31 {
 
         //Variables
         int promedioNotas;
-        String categoria;
+        String categoria = "";
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
@@ -31,7 +31,7 @@ public class Problema31 {
             case 3:
             case 4:
             case 5:
-                categoria = "Pésimo" ;
+                categoria = "Pésimo";
                 break;
             case 6:
             case 7:
@@ -40,13 +40,27 @@ public class Problema31 {
             case 10:
                 categoria = "Malo";
                 break;
-
-
-
-
-
+            case 11:
+            case 12:
+            case 13:
+            case 14:
+                categoria = "Regular";
+                break;
+            case 15:
+            case 16:
+            case 17:
+                categoria = "Bueno";
+                break;
+            case 18:
+            case 19:
+            case 20:
+                categoria = "Excelente";
 
         }
+
+        //Salida
+        System.out.println("");
+        System.out.println("El promedio obtenido es : " + categoria);
 
 
     }
