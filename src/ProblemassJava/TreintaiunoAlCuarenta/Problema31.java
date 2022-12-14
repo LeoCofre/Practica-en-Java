@@ -2,7 +2,7 @@ package ProblemassJava.TreintaiunoAlCuarenta;
 
 import java.util.Scanner;
 
-public class Problema31 {
+public class Problema31<promedioNotas> {
 
     public static void main(String[] args) {
 
@@ -26,24 +26,27 @@ public class Problema31 {
 
 
         //Proceso
-        if(promedioNotas >= 0 && promedioNotas <= 5) {
-            categoria= " PESIMO";
-        }else if(promedioNotas >= 6 && promedioNotas <= 10) (
+        if (promedioNotas >= 0 && promedioNotas <= 5) {
+            categoria = " PESIMO";
+        } else if (promedioNotas >= 6 && promedioNotas <= 10) (
                 categoria = " MALO";
-    }else if ( >= 11 && p <= 14) {
-        ca =
-                " REGULAR";
-    }else if(p >= 15 && p <= 17) {
-        e = "BUENO";
-    }else if(p >= 18 && p <= 20) {
+        } else if (promedioNotas >= 11 && promedioNotas <=14) {
+                categoria = "REGULAR";
+    }else if(promedioNotas >=15 && promedioNotas <=17)
+
+    {
+        categoria = "BUENO";
+    }else if(promedio >=18&&p <=20)
+
+    {
         e = " EXCELENTE";
-        }
-
-        //Salida
-        System.out.println("");
-        System.out.println("El promedio obtenido es : " + categoria);
-
-
     }
+
+    //Salida
+        System.out.println("");
+        System.out.println("El promedio obtenido es : "+categoria);
+
+
+}
 }
 
