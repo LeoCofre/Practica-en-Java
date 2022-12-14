@@ -16,37 +16,31 @@ public class Problema31<promedioNotas> {
             Entre 18 y 20 Excelente*/
 
         //Variables
-        int promedioNotas;
-        String categoria = "";
+        int p;
+        String e = "";
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese promedio de notas obtenido");
-        promedioNotas = teclado.nextInt();
+        p = teclado.nextInt();
 
 
         //Proceso
-        if (promedioNotas >= 0 && promedioNotas <= 5) {
-            categoria = " PESIMO";
-        } else if (promedioNotas >= 6 && promedioNotas <= 10) (
-                categoria = " MALO";
-        } else if (promedioNotas >= 11 && promedioNotas <=14) {
-                categoria = "REGULAR";
-    }else if(promedioNotas >=15 && promedioNotas <=17)
+        if (p >= 0 && p <= 5) {
+            e = " PESIMO";
+        } else if (p >= 6 && p <= 10) (
+                e = " MALO";
+        }else if(p >=11&&p <=14){
+        e = " REGULAR";
+    }else if(p >=15&&p <=17)
 
     {
-        categoria = "BUENO";
-    }else if(promedio >=18&&p <=20)
+        e = "BUENO";
+    }else if(p >=18&&p <=20)
 
     {
         e = " EXCELENTE";
     }
 
-    //Salida
-        System.out.println("");
-        System.out.println("El promedio obtenido es : "+categoria);
-
-
 }
 }
-
