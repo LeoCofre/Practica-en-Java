@@ -29,14 +29,14 @@ public class Problema31<promedioNotas> {
         if (p >= 0 && p <= 5) {
             e = " PESIMO";
         } else if (p >= 6 && p <= 10) (
-                e = " MALO";
-        }else if(p >=11&&p <=14){
-        e = " REGULAR";
-    }else if(p >=15&&p <=17)
+                e = " MALO");
+        }else if(p >=11&&p <=14)(
+                e = " REGULAR";)
+        }else if(p >=15&&p <=17)
 
-    {
-        e = "BUENO";
-    }else if(p >=18&&p <=20)
+        {
+         e = "BUENO";
+        }else if(p >=18&&p <=20)
 
     {
         e = " EXCELENTE";
