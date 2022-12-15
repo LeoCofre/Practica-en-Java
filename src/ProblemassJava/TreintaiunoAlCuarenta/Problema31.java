@@ -38,5 +38,8 @@ public class Problema31<promedioNotas> {
             categoria = " EXCELENTE";
         }
 
+        //Salida
+        System.out.println("");
+        System.out.println("Su promedio es :" + categoria);
     }
 }
