@@ -16,17 +16,32 @@ public class Problema34 {
          */
 
         //Variables
-        char c,n;
+        char c, n;
         int mp = 0;
 
         //Entrada
-        Scanner teclado= new Scanner(System. in) ;
+        Scanner teclado = new Scanner(System.in);
         System.out.print("Colegio: ");
         c = teclado.next().charAt(0);
         System.out.print("Nivel: ");
         n = teclado.next().charAt(0);
 
         //Proceso
+        if (c == 'N') {
+            if (n == 'A')
+                mp = 300;
+            else if (n == 'C')
+                mp = 200;
+            else if (n == 'C')
+                mp = 100;
+        } else if (c == 'P') {
+            if (n == 'A')
+                mp = 400;
+            else if (n == 'B')
+                mp = 300;
+            else if (n == 'C')
+                mp = 200;
+        }
 
     }
 }
