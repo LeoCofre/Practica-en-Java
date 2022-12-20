@@ -9,10 +9,10 @@ public class Problema34 {
              /*Determine el importe a pagar para el examen de admisión de una universidad, cuyo valor
              depende del nivel socioeconómico y el colegio de procedencia. */
 
-        /*                      Nivel Social
+        /*                       Nivel Social
             Colegio              A   B   C
-            Nacional            300 200 100
-            Particular          400 300 200
+            Nacional   (N)       300 200 100
+            Particular (P)       400 300 200
          */
 
         //Variables
