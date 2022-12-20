@@ -43,6 +43,10 @@ public class Problema34 {
                 mp = 200;
         }
 
+        //Salida
+        System.out.println("");
+        System.out.println("Monto a pagar: " + mp );
+
     }
 }
 
