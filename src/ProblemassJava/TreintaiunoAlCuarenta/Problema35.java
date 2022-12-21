@@ -19,6 +19,13 @@ public class Problema35 {
         System.out.println("Ingrese número de mes: ");
         mes = teclado.nextInt();
         System.out.println("Ingrese año: ");
+        año = teclado.nextInt();
+
+        //Proceso
+        switch (mes){
+            case 1
+        }
+
 
     }
 }
