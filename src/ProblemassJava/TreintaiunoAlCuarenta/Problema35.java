@@ -23,7 +23,10 @@ public class Problema35 {
 
         //Proceso
         switch (mes){
-            case 1
+            case 1:
+                dia = 31;
+                mesLetras = "Enero";
+                break;
         }
 
 
