@@ -32,8 +32,18 @@ public class Problema35 {
                 dia = 29 ;
                 else
                 dia = 28 ;
-                mesLetras = " FEBRERO";
+                mesLetras = " Febrero";
                 break;
+            case 3:
+                dia = 30;
+                mesLetras = "Abril";
+                break;
+            case 4:
+                dia = 31;
+                mesLetras = "Mayo";
+                break;
+            case 5:
+
         }
 
 
