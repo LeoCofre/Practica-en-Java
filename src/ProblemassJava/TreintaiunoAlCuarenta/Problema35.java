@@ -22,16 +22,16 @@ public class Problema35 {
         año = teclado.nextInt();
 
         //Proceso
-        switch (mes){
+        switch (mes) {
             case 1:
                 dia = 31;
                 mesLetras = "Enero";
                 break;
-            case 2 :
+            case 2:
                 if (año % 4 == 0 && (año % 100 != 0 || año % 400 == 0))
-                dia = 29 ;
+                    dia = 29;
                 else
-                dia = 28 ;
+                    dia = 28;
                 mesLetras = " Febrero";
                 break;
             case 3:
@@ -49,6 +49,30 @@ public class Problema35 {
             case 6:
                 dia = 30;
                 mesLetras = "Junio";
+                break;
+            case 7:
+                dia = 31;
+                mesLetras = "Julio";
+                break;
+            case 8:
+                dia = 31;
+                mesLetras = "Agosto";
+                break;
+            case 9:
+                dia = 30;
+                mesLetras = "Septiembre";
+                break;
+            case 10:
+                dia = 31;
+                mesLetras = "Octubre";
+                break;
+            case 11:
+                dia = 30;
+                mesLetras = "Noviembre";
+                break;
+            case 12:
+                dia = 31;
+                mesLetras = "Diciembre";
                 break;
 
         }
