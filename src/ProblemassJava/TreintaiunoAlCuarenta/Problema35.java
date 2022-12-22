@@ -36,13 +36,20 @@ public class Problema35 {
                 break;
             case 3:
                 dia = 30;
-                mesLetras = "Abril";
+                mesLetras = "Marzo";
                 break;
             case 4:
+                dia = 30;
+                mesLetras = "Abril";
+                break;
+            case 5:
                 dia = 31;
                 mesLetras = "Mayo";
                 break;
-            case 5:
+            case 6:
+                dia = 30;
+                mesLetras = "Junio";
+                break;
 
         }
 
