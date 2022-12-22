@@ -74,9 +74,11 @@ public class Problema35 {
                 dia = 31;
                 mesLetras = "Diciembre";
                 break;
-
         }
 
-
+        //Salida
+        System.out.println("");
+        System.out.println("Mes: " + mesLetras);
+        System.out.println("Dias: " + dia);
     }
 }
