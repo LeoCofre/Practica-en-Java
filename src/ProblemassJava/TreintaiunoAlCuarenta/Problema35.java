@@ -27,6 +27,13 @@ public class Problema35 {
                 dia = 31;
                 mesLetras = "Enero";
                 break;
+            case 2 :
+                if (año % 4 == 0 && (año % 100 != 0 || año % 400 == 0))
+                dia = 29 ;
+                else
+                dia = 28 ;
+                mesLetras = " FEBRERO";
+                break;
         }
 
 
