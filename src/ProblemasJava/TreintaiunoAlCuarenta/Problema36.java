@@ -13,5 +13,8 @@ public class Problema36 {
             3         4000    3500    3000*/
 
         //Variables
+
+        int producto, calidad;
+
     }
 }
