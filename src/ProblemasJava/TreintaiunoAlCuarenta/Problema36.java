@@ -19,8 +19,26 @@ public class Problema36 {
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Ingrese número de calidad de 1 a 3: ");
+        System.out.println("Ingrese código de calidad de 1 a 3: ");
         calidad = teclado.nextInt();
+        System.out.println("Ingrese código de producto de 1 a 3: ");
+        producto = teclado.nextInt();
 
+        //Proceso
+        switch (calidad) {
+
+            case 1:
+                switch (producto) {
+                    case 1:
+                        precio = 5000;
+                        break;
+                    case 2:
+                        precio = 4500;
+                        break;
+                    case 3:
+                        precio = 4000;
+                        break;
+                }
+        }
     }
 }
