@@ -1,5 +1,7 @@
 package ProblemasJava.TreintaiunoAlCuarenta;
 
+import java.util.Scanner;
+
 public class Problema36 {
 
     public static void main(String[] args) {
@@ -13,8 +15,12 @@ public class Problema36 {
             3         4000    3500    3000*/
 
         //Variables
+        int producto, calidad, precio;
 
-        int producto, calidad;
+        //Entrada
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese número de calidad de 1 a 3: ");
+        calidad = teclado.nextInt();
 
     }
 }
