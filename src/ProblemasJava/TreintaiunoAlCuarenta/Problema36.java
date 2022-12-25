@@ -26,7 +26,6 @@ public class Problema36 {
 
         //Proceso
         switch (calidad) {
-
             case 1:
                 switch (producto) {
                     case 1:
@@ -38,6 +37,11 @@ public class Problema36 {
                     case 3:
                         precio = 4000;
                         break;
+                }
+                break;
+            case 2:
+                switch (producto){
+
                 }
         }
     }
