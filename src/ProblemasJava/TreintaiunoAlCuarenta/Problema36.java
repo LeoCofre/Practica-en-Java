@@ -15,7 +15,7 @@ public class Problema36 {
             3         4000    3500    3000*/
 
         //Variables
-        int producto, calidad, precio;
+        int producto, calidad, precio = 0;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
@@ -65,6 +65,9 @@ public class Problema36 {
                         break;
                 }
         }
+        //Salida
+        System.out.println("");
+        System.out.println("El precio a pagar es : " + precio );
     }
 
 }
