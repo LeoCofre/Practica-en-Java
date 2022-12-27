@@ -52,8 +52,19 @@ public class Problema36 {
                         break;
                 }
                 break;
-
+            case 3:
+                switch (producto) {
+                    case 1:
+                        precio = 4000;
+                        break;
+                    case 2:
+                        precio = 3500;
+                        break;
+                    case 3:
+                        precio = 3000;
+                        break;
+                }
         }
     }
-}
 
+}
