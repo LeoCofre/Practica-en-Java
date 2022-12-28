@@ -13,7 +13,26 @@ public class Problema38 {
         String respuesta = "";
 
         //Entrada
-        Scanner teclado = new Scanner (System.in);
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese dia: ");
+        dia = teclado.nextInt();
+        System.out.println("Ingrese mes: ");
+        mes = teclado.nextInt();
+        System.out.println("Ingrese año");
+        año = teclado.nextInt();
+
+        //Proceso
+        switch (mes) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                diaMaximo = 31;
+                break;
+        }
 
 
     }
