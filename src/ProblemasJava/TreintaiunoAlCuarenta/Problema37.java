@@ -42,7 +42,5 @@ public class Problema37 {
         //Salida
         System.out.println("");
         System.out.println("El premio es: " + premio);
-
-
     }
 }
