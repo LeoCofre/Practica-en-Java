@@ -44,7 +44,7 @@ public class Problema38 {
                 else
                     diaMaximo = 28;
         }
-        if ((dia > 0 && dia <= diaMaximo) && (mes > 0 && mes < 13) && año > 0)
+        if (dia > 0 && dia <= diaMaximo && año > 0)
             respuesta = " CORRECTO";
         else
             respuesta = " INCORRECTO";
