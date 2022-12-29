@@ -9,7 +9,7 @@ public class Problema38 {
         //Dado el día, mes y año, determine si es una fecha correcta, considere los años bisiestos.
 
         //Variables
-        int dia, mes, año, diaMaximo;
+        int dia, mes, año, diaMaximo = 0;
         String respuesta = "";
 
         //Entrada
@@ -32,8 +32,24 @@ public class Problema38 {
             case 12:
                 diaMaximo = 31;
                 break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                diaMaximo = 30;
+                break;
+            case 2:
+                if (año % 4 == 0 && (!(año % 100 == 0) || año % 400 == 0))
+                    diaMaximo = 29;
+                else
+                    diaMaximo = 28;
         }
-
-
+        if ((dia > 0 && dia <= diaMaximo) && (mes > 0 && mes < 13) && año > 0)
+            respuesta = " CORRECTO";
+        else
+            respuesta = " INCORRECTO";
+        //Salida
+        System.out.println("");
+        System.out.println("Respuesta: " + respuesta);
     }
 }
