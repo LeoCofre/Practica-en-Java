@@ -53,8 +53,13 @@ public class Problema39 {
                 mes = 1;
                 año++;
             }
-
         }
+
+        //Salida
+        System.out.println("");
+        System.out.println("Dia: " + dia);
+        System.out.println("Mes: " + mes);
+        System.out.println("Año: " + año);
 
     }
 }
