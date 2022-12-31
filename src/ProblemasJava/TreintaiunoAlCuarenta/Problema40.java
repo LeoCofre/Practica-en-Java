@@ -96,7 +96,7 @@ public class Problema40 {
                     romano = "XC";
                     break;
             }
-            switch (unidad){
+            switch (unidad) {
                 case 1:
                     romano = "I";
                     break;
