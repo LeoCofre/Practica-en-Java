@@ -7,6 +7,9 @@ public class Problema40 {
         //Convierta a números romanos, números menores a 4000.
 
         //Variables
+        int numero, unidad, decena , centena , mil;
+        String respuesta = "";
+
 
     }
 }
