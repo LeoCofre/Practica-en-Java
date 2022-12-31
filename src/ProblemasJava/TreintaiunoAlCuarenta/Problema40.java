@@ -9,7 +9,7 @@ public class Problema40 {
         //Convierta a números romanos, números menores a 4000.
 
         //Variables
-        int numero, unidad, decena , centena , mil;
+        int numero, unidad, decena, centena, mil;
         String respuesta = "";
 
         //Entrada
@@ -18,8 +18,26 @@ public class Problema40 {
         numero = scanner.nextInt();
 
         //Proceso
-        if (numero >= 3999){
+        if (numero <= 3999) {
+            unidad = numero % 10;
+            numero = numero / 10;
+            decena = numero % 10;
+            numero = numero / 10;
+            centena = numero % 10;
+            numero = numero / 10;
+            mil = numero % 10;
 
+            switch (mil) {
+                case 1:
+                    respuesta = "M";
+                    break;
+                case 2:
+                    respuesta = "MM";
+                    break;
+                case 3:
+                    respuesta = "MMM";
+                    break;
+            }
         }
 
 
