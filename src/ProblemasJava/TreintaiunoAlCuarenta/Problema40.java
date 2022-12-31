@@ -10,7 +10,7 @@ public class Problema40 {
 
         //Variables
         int numero, unidad, decena, centena, mil;
-        String respuesta = "";
+        String romano = "";
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
@@ -29,103 +29,106 @@ public class Problema40 {
 
             switch (mil) {
                 case 1:
-                    respuesta = "M";
+                    romano = "M";
                     break;
                 case 2:
-                    respuesta = "MM";
+                    romano = "MM";
                     break;
                 case 3:
-                    respuesta = "MMM";
+                    romano = "MMM";
                     break;
             }
             switch (centena) {
                 case 1:
-                    respuesta = "C";
+                    romano = "C";
                     break;
                 case 2:
-                    respuesta = "CC";
+                    romano = "CC";
                     break;
                 case 3:
-                    respuesta = "CCC";
+                    romano = "CCC";
                     break;
                 case 4:
-                    respuesta = "CD";
+                    romano = "CD";
                     break;
                 case 5:
-                    respuesta = "D";
+                    romano = "D";
                     break;
                 case 6:
-                    respuesta = "DC";
+                    romano = "DC";
                     break;
                 case 7:
-                    respuesta = "DCC";
+                    romano = "DCC";
                     break;
                 case 8:
-                    respuesta = "DCCC";
+                    romano = "DCCC";
                     break;
                 case 9:
-                    respuesta = "CM";
+                    romano = "CM";
                     break;
             }
             switch (decena) {
                 case 1:
-                    respuesta = "X";
+                    romano = "X";
                     break;
                 case 2:
-                    respuesta = "XX";
+                    romano = "XX";
                     break;
                 case 3:
-                    respuesta = "XXX";
+                    romano = "XXX";
                     break;
                 case 4:
-                    respuesta = "XL";
+                    romano = "XL";
                     break;
                 case 5:
-                    respuesta = "L";
+                    romano = "L";
                     break;
                 case 6:
-                    respuesta = "LX";
+                    romano = "LX";
                     break;
                 case 7:
-                    respuesta = "LXX";
+                    romano = "LXX";
                     break;
                 case 8:
-                    respuesta = "LXXX";
+                    romano = "LXXX";
                     break;
                 case 9:
-                    respuesta = "XC";
+                    romano = "XC";
                     break;
             }
             switch (unidad){
                 case 1:
-                    respuesta = "I";
+                    romano = "I";
                     break;
                 case 2:
-                    respuesta = "II";
+                    romano = "II";
                     break;
                 case 3:
-                    respuesta = "III";
+                    romano = "III";
                     break;
                 case 4:
-                    respuesta = "IV";
+                    romano = "IV";
                     break;
                 case 5:
-                    respuesta = "V";
+                    romano = "V";
                     break;
                 case 6:
-                    respuesta = "VI";
+                    romano = "VI";
                     break;
                 case 7:
-                    respuesta = "VII";
+                    romano = "VII";
                     break;
                 case 8:
-                    respuesta = "VIII";
+                    romano = "VIII";
                     break;
                 case 9:
-                    respuesta = "IX";
+                    romano = "IX";
                     break;
             }
         }
+        //Salida
+        System.out.println("");
+        System.out.println("Romano: " + romano);
 
 
     }
