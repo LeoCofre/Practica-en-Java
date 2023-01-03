@@ -14,11 +14,11 @@ public class Propuesto24 {
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese número de canal: ");
+        System.out.println("Ingrese número de canal: 4,5,7,9,11,13");
         numeroCanal = scanner.nextInt();
 
         //Proceso
-        switch (numeroCanal){
+        switch (numeroCanal) {
             case 4:
                 canalEnletras = "La Red";
                 break;
@@ -26,7 +26,7 @@ public class Propuesto24 {
                 canalEnletras = "UCV Televisión";
                 break;
             case 7:
-                canalEnletras ="TVN";
+                canalEnletras = "TVN";
                 break;
             case 9:
                 canalEnletras = "Megavisión";
@@ -38,6 +38,9 @@ public class Propuesto24 {
                 canalEnletras = "Canal 13";
                 break;
         }
+        //Salida
+        System.out.println();
+        System.out.println("El canal ingresado es  " + canalEnletras);
 
     }
 }
