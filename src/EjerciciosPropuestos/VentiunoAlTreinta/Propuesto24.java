@@ -41,6 +41,5 @@ public class Propuesto24 {
         //Salida
         System.out.println();
         System.out.println("El canal ingresado es  " + canalEnletras);
-
     }
 }
