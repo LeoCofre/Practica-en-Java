@@ -18,6 +18,22 @@ public class Propuesto23 {
         operador = scanner.next().charAt(0);
 
         //Proceso
-
+        switch (operador) {
+            case '+':
+                nombreOperador = "Suma";
+                break;
+            case '-':
+                nombreOperador = "Resta";
+                break;
+            case '*':
+                nombreOperador = "Multiplicación";
+                break;
+            case '/':
+                nombreOperador = "División";
+                break;
+        }
+        //Salida
+        System.out.println();
+        System.out.println("El operador ingresado corresponde a una " + nombreOperador);
     }
 }
