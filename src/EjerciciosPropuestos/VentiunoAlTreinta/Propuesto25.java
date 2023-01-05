@@ -14,6 +14,9 @@ public class Propuesto25 {
 
         */
 
+        //Variables
+
+
 
     }
 }
