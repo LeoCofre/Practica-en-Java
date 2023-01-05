@@ -1,5 +1,7 @@
 package EjerciciosPropuestos.VentiunoAlTreinta;
 
+import java.util.Scanner;
+
 public class Propuesto25 {
 
     public static void main(String[] args) {
@@ -15,6 +17,14 @@ public class Propuesto25 {
         */
 
         //Variables
+        String tipoTarjeta, sexo;
+        int descuento;
+
+        //Entrada
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese tipo de tarjeta: Obrero o Empleado");
+        tipoTarjeta = scanner.findInLine("");
+
 
 
 
