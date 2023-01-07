@@ -1,5 +1,6 @@
 package EjerciciosPropuestos.VentiunoAlTreinta;
 
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Propuesto25 {
@@ -23,9 +24,21 @@ public class Propuesto25 {
         //Entrada
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese tipo de tarjeta: Obrero o Empleado");
-        tipoTarjeta = scanner.findInLine("");
+        tipoTarjeta = scanner.nextLine();
+        System.out.println("Ingrese sexo: Hombre o Mujer");
+        sexo = scanner.nextLine();
+
+        //Proceso
+        if (tipoTarjeta.equals("Obrero") || tipoTarjeta.equals("OBRERO")) {
+            if (sexo.equals("Hombre") || sexo.equals("HOMBRE")) {
+                descuento = 15;
+            } else if (sexo.equals("Mujer") || sexo.equals("MUJER")) {
+                descuento = 10;
 
 
+            }
+
+        }
 
 
     }
