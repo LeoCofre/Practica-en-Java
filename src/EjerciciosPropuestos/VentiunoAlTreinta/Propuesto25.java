@@ -18,7 +18,7 @@ public class Propuesto25 {
         */
 
         //Variables
-        char tipoTarjeta;
+        int tipoTarjeta;
         String descuento = "";
 
         //Entrada
@@ -28,7 +28,7 @@ public class Propuesto25 {
         System.out.println("2: Obrera ");
         System.out.println("3: Empleado ");
         System.out.println("4: Empleada");
-        tipoTarjeta = scanner.next().charAt(0);
+        tipoTarjeta = scanner.nextInt();
 
 
         //Proceso
