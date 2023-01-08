@@ -40,89 +40,89 @@ public class Problema40 {
             }
             switch (centena) {
                 case 1:
-                    romano = "C";
+                    romano = romano + "C";
                     break;
                 case 2:
-                    romano = "CC";
+                    romano = romano + "CC";
                     break;
                 case 3:
-                    romano = "CCC";
+                    romano = romano + "CCC";
                     break;
                 case 4:
-                    romano = "CD";
+                    romano = romano + "CD";
                     break;
                 case 5:
-                    romano = "D";
+                    romano = romano + "D";
                     break;
                 case 6:
-                    romano = "DC";
+                    romano = romano + "DC";
                     break;
                 case 7:
-                    romano = "DCC";
+                    romano = romano + "DCC";
                     break;
                 case 8:
-                    romano = "DCCC";
+                    romano = romano + "DCCC";
                     break;
                 case 9:
-                    romano = "CM";
+                    romano = romano + "CM";
                     break;
             }
             switch (decena) {
                 case 1:
-                    romano = "X";
+                    romano = romano + "X";
                     break;
                 case 2:
-                    romano = "XX";
+                    romano = romano + "XX";
                     break;
                 case 3:
-                    romano = "XXX";
+                    romano = romano + "XXX";
                     break;
                 case 4:
-                    romano = "XL";
+                    romano = romano + "XL";
                     break;
                 case 5:
-                    romano = "L";
+                    romano = romano + "L";
                     break;
                 case 6:
-                    romano = "LX";
+                    romano = romano + "LX";
                     break;
                 case 7:
-                    romano = "LXX";
+                    romano = romano + "LXX";
                     break;
                 case 8:
-                    romano = "LXXX";
+                    romano = romano + "LXXX";
                     break;
                 case 9:
-                    romano = "XC";
+                    romano = romano + "XC";
                     break;
             }
             switch (unidad) {
                 case 1:
-                    romano = "I";
+                    romano = romano + "I";
                     break;
                 case 2:
-                    romano = "II";
+                    romano = romano + "II";
                     break;
                 case 3:
-                    romano = "III";
+                    romano = romano + "III";
                     break;
                 case 4:
-                    romano = "IV";
+                    romano = romano + "IV";
                     break;
                 case 5:
-                    romano = "V";
+                    romano = romano + "V";
                     break;
                 case 6:
-                    romano = "VI";
+                    romano = romano + "VI";
                     break;
                 case 7:
-                    romano = "VII";
+                    romano = romano + "VII";
                     break;
                 case 8:
-                    romano = "VIII";
+                    romano = romano + "VIII";
                     break;
                 case 9:
-                    romano = "IX";
+                    romano = romano + "IX";
                     break;
             }
         }

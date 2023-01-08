@@ -18,27 +18,33 @@ public class Propuesto25 {
         */
 
         //Variables
-        String tipoTarjeta, sexo;
+        char tipoTarjeta;
         int descuento = 0;
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese tipo de tarjeta: Obrero o Empleado");
-        tipoTarjeta = scanner.nextLine();
-        System.out.println("Ingrese sexo: Hombre o Mujer");
-        sexo = scanner.nextLine();
+        System.out.println("Ingrese tipo de tarjeta: ");
+        System.out.println("1: Obrero ");
+        System.out.println("2: Obrera ");
+        System.out.println("3: Empleado ");
+        System.out.println("4: Empleada");
+        tipoTarjeta = scanner.next().charAt(0);
+
 
         //Proceso
-        if (tipoTarjeta.equals("Obrero") && sexo.equals("Hombre")) {
-            descuento = 15;
-        } else if (tipoTarjeta.equals("Obrero") && sexo.equals("Mujer")) {
-            descuento = 10;
-        } else if (tipoTarjeta.equals("Empleado") && sexo.equals("Hombre")) {
-            descuento = 20;
-        } else if (tipoTarjeta.equals("Empleado") && sexo.equals("Mujer")) {
-            descuento = 15;
-        } else {
-            System.out.println("Valores ingresados no validos");
+        switch (tipoTarjeta) {
+            case 1:
+                descuento = 15;
+                break;
+            case 2:
+                descuento = 10;
+                break;
+            case 3:
+                descuento = 20;
+                break;
+            case 4:
+                descuento = 15;
+                break;
         }
 
         //Salida
