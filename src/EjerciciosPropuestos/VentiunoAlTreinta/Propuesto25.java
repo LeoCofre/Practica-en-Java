@@ -19,7 +19,7 @@ public class Propuesto25 {
 
         //Variables
         char tipoTarjeta;
-        int descuento = 0;
+        String descuento = "";
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
@@ -33,23 +33,23 @@ public class Propuesto25 {
 
         //Proceso
         switch (tipoTarjeta) {
-            case 1:
-                descuento = 15;
+            case 1 :
+                descuento = "15% de descuento";
                 break;
             case 2:
-                descuento = 10;
+                descuento = "10% de descuento";
                 break;
             case 3:
-                descuento = 20;
+                descuento = "20% de descuento";
                 break;
             case 4:
-                descuento = 15;
+                descuento = "15% de descuento";
                 break;
         }
 
         //Salida
         System.out.println();
-        System.out.println("El descuento corresponde al " + descuento + "%");
+        System.out.println("El descuento corresponde al " + descuento );
 
     }
 }

@@ -7,7 +7,7 @@ public class Main {
 
             int count;
 
-            char string[] = string1.toCharArray();
+            char[] string = string1.toCharArray();
 
             System.out.println("Las letras y numeros duplicados son:");
 
