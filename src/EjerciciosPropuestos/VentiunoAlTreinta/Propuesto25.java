@@ -18,8 +18,7 @@ public class Propuesto25 {
         */
 
         //Variables
-        int tipoTarjeta;
-        String descuento = "";
+        int sueldo, descuento = 0;
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
@@ -28,24 +27,9 @@ public class Propuesto25 {
         System.out.println("2: Obrera ");
         System.out.println("3: Empleado ");
         System.out.println("4: Empleada");
-        tipoTarjeta = scanner.nextInt();
-
+        
 
         //Proceso
-        switch (tipoTarjeta) {
-            case 1 :
-                descuento = "15% de descuento";
-                break;
-            case 2:
-                descuento = "10% de descuento";
-                break;
-            case 3:
-                descuento = "20% de descuento";
-                break;
-            case 4:
-                descuento = "15% de descuento";
-                break;
-        }
 
         //Salida
         System.out.println();
