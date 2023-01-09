@@ -15,25 +15,26 @@ public class Propuesto25 {
         Obrero          15%      10%
         Empleado        20%      15%
 
+        Determine mediante un programa, cuál será el monto del descuento al sueldo ingresado de un trabajador.
+
         */
 
         //Variables
-        int sueldo, descuento = 0;
+        int sueldo, descuento;
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese tipo de tarjeta: ");
-        System.out.println("1: Obrero ");
-        System.out.println("2: Obrera ");
-        System.out.println("3: Empleado ");
-        System.out.println("4: Empleada");
+        System.out.println("Ingrese sueldo");
+        sueldo = scanner.nextInt();
+        System.out.println("");
+
         
 
         //Proceso
 
         //Salida
         System.out.println();
-        System.out.println("El descuento corresponde al " + descuento );
+        System.out.println("El descuento corresponde al "  );
 
     }
 }
