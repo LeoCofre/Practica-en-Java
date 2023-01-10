@@ -20,7 +20,7 @@ public class Propuesto25 {
         */
 
         //Variables
-        double sueldo, descuento = 0;
+        int sueldo, descuento = 0;
         char trabajador, sexo;
 
 
