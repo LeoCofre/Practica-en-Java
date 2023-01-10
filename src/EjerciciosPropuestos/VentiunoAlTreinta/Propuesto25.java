@@ -20,7 +20,7 @@ public class Propuesto25 {
         */
 
         //Variables
-        int sueldo, descuento;
+        double sueldo, descuento = 0;
         char trabajador, sexo;
 
 
@@ -28,19 +28,25 @@ public class Propuesto25 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese sueldo");
         sueldo = scanner.nextInt();
-        System.out.println("Ingrese tipo de trabajador: 1 si es Obrero o 2 si es Empleado.");
+        System.out.println("Ingrese tipo de trabajador: 'o' si es Obrero o 'e' si es Empleado.");
         trabajador = scanner.next().charAt(0);
-        System.out.println("Ingrese sexo: 1 si es hombre o 2 si es mujer.");
+        System.out.println("Ingrese sexo: 'h' si es hombre o 'm' si es mujer.");
         sexo = scanner.next().charAt(0);
 
         //Proceso
-        if (trabajador == 1 && sexo == 1){
-
+        if (trabajador == 'o' && sexo == 'h') {
+            descuento = (sueldo * 15) / 100;
+        } else if (trabajador == 'o' && sexo == 'm') {
+            descuento = (sueldo * 10) / 100;
+        } else if (trabajador == 'e' && sexo == 'h') {
+            descuento = (sueldo * 20) / 100;
+        } else if (trabajador == 'e' && sexo == 'm') {
+            descuento = (sueldo * 15) / 100;
         }
 
         //Salida
         System.out.println();
-        System.out.println("El descuento corresponde al "  );
+        System.out.println("El monto del descuento es de " + descuento);
 
     }
 }
