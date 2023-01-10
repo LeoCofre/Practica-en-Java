@@ -21,16 +21,22 @@ public class Propuesto25 {
 
         //Variables
         int sueldo, descuento;
+        char trabajador, sexo;
+
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese sueldo");
         sueldo = scanner.nextInt();
-        System.out.println("");
-
-        
+        System.out.println("Ingrese tipo de trabajador: 1 si es Obrero o 2 si es Empleado.");
+        trabajador = scanner.next().charAt(0);
+        System.out.println("Ingrese sexo: 1 si es hombre o 2 si es mujer.");
+        sexo = scanner.next().charAt(0);
 
         //Proceso
+        if (trabajador == 1 && sexo == 1){
+
+        }
 
         //Salida
         System.out.println();
