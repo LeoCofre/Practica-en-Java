@@ -18,27 +18,27 @@ public class Propuesto26 {
 
         //Variables
 
-        double kilo, precio, total, descuento = 0;
+        float kilo, precio, total, descuento = 0;
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese cantidad de kilos de manzana:");
-        kilo = scanner.nextDouble();
+        kilo = scanner.nextFloat();
         System.out.println("Ingrese precio del kilo de manzanas:");
-        precio = scanner.nextDouble();
+        precio = scanner.nextFloat();
         total = precio * kilo;
 
         //Proceso
         if (kilo <= 2) {
             descuento = 0;
         } else if (kilo >= 2.01 && kilo <= 5) {
-            descuento = total * 0.10;
+            descuento = total * 0.10f;
             System.out.println("Se aplico un 10% de descuento");
         } else if (kilo >= 5.01 && kilo <= 10) {
-            descuento = total * 0.15;
+            descuento = total * 0.15f;
             System.out.println("Se aplico un 15% de descuento");
         } else {
-            descuento = total * 0.20;
+            descuento = total * 0.20f;
             System.out.println("Se aplico un 20% de descuento");
         }
 
