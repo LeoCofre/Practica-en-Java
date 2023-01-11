@@ -32,10 +32,10 @@ public class Propuesto26 {
         if (kilo <= 2) {
             descuento = 0;
         } else if (kilo >= 2.01 && kilo <= 5) {
-            total = descuento * 0.10;
+            descuento = total * 0.10;
             System.out.println("Se aplico un 10% de descuento");
         } else if (kilo >= 5.01 && kilo <= 10) {
-            total = descuento * 0.15;
+            descuento = total * 0.15;
             System.out.println("Se aplico un 15% de descuento");
         } else {
             descuento = total * 0.20;
@@ -43,6 +43,7 @@ public class Propuesto26 {
         }
 
         //Salida
+        System.out.println();
         System.out.println("El descuento aplicado es: " + descuento);
     }
 }
