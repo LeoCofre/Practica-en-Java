@@ -17,13 +17,13 @@ public class Propuesto26 {
           Determinar cuánto pagará una persona que compre manzanas en esa frutería.*/
 
         //Variables
-        int kilo;
-        double precio, total, descuento = 0;
+
+        double kilo, precio, total, descuento = 0;
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese cantidad de kilos de manzana:");
-        kilo = scanner.nextInt();
+        kilo = scanner.nextDouble();
         System.out.println("Ingrese precio del kilo de manzanas:");
         precio = scanner.nextDouble();
         total = precio * kilo;
