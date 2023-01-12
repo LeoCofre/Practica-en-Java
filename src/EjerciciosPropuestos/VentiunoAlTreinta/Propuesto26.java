@@ -17,24 +17,24 @@ public class Propuesto26 {
           Determinar cuánto pagará una persona que compre manzanas en esa frutería.*/
 
         //Variables
-
-        float kilo, precio, total, descuento = 0;
+        int kilo;
+        float precio, total, descuento = 0;
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese cantidad de kilos de manzana:");
-        kilo = scanner.nextFloat();
+        kilo = scanner.nextInt();
         System.out.println("Ingrese precio del kilo de manzanas:");
         precio = scanner.nextFloat();
         total = precio * kilo;
 
         //Proceso
-        if (kilo <= 2) {
-            descuento = 0;
-        } else if (kilo >= 2.01 && kilo <= 5) {
+        if (kilo <= 2f) {
+            descuento = 0f;
+        } else if (kilo >= 2.01f && kilo <= 5f) {
             descuento = total * 0.10f;
             System.out.println("Se aplico un 10% de descuento");
-        } else if (kilo >= 5.01 && kilo <= 10) {
+        } else if (kilo >= 5.01f && kilo <= 10f) {
             descuento = total * 0.15f;
             System.out.println("Se aplico un 15% de descuento");
         } else {
