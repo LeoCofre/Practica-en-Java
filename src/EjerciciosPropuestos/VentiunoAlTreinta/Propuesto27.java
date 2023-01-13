@@ -31,16 +31,16 @@ public class Propuesto27 {
 
         //Proceso
         switch (codigo) {
-            case 0:
+            case '0':
                 estadoCivil = "Soltero";
                 break;
-            case 1:
+            case '1':
                 estadoCivil = "Casado";
                 break;
-            case 2:
+            case '2':
                 estadoCivil = "Divorciado";
                 break;
-            case 3:
+            case '3':
                 estadoCivil = "Viudo";
                 break;
         }
