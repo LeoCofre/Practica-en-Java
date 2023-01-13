@@ -1,0 +1,22 @@
+package EjerciciosPropuestos.VentiunoAlTreinta;
+
+public class Propuesto28 {
+
+    public static void main(String[] args) {
+
+        /*Determinar el monto que recibirá un trabajador por utilidades, después de ingresar el tiempo
+        de servicio y el cargo, según la siguiente tabla.
+
+
+                                      _____________________Cargo___________________
+
+        __Tiempo de servicio__        Administrador       Contador         Empleado
+        Entre O y 2 años                  2000              1500            1000
+        Entre 3 y S años                  2500              2000            1500
+        Entre 6 y 8 años                  3000              2500            2000
+        Mayor a 8 años                    4000              3500            1500
+        */
+
+        //Variables
+    }
+}
