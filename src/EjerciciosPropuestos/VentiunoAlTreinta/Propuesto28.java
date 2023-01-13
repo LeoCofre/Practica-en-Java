@@ -1,5 +1,7 @@
 package EjerciciosPropuestos.VentiunoAlTreinta;
 
+import java.util.Scanner;
+
 public class Propuesto28 {
 
     public static void main(String[] args) {
@@ -18,5 +20,13 @@ public class Propuesto28 {
         */
 
         //Variables
+        int tiempo, utilidades;
+        char cargo;
+
+        //Entrada
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese cargo del trabajador: ");
+        System.out.println("");
+
     }
 }
