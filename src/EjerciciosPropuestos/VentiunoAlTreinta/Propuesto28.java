@@ -25,8 +25,13 @@ public class Propuesto28 {
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese cargo del trabajador: 'a' si es Administrador ");
-        System.out.println("");
+        System.out.println("Ingrese cargo del trabajador:  ");
+        System.out.println("'A' si es Administrador");
+        System.out.println("'C' si es Contador");
+        System.out.println("'E' si es Empleado");
+        cargo = scanner.next().charAt(0);
+        System.out.println("Ingrese años de servicio");
+        tiempo = scanner.nextInt();
 
     }
 }
