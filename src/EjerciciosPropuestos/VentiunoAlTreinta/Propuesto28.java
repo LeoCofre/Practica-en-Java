@@ -33,5 +33,10 @@ public class Propuesto28 {
         System.out.println("Ingrese años de servicio");
         tiempo = scanner.nextInt();
 
+        //Proceso
+        if (cargo == 'A' || cargo == 'a' && tiempo <= 2){
+            utilidades = 2000;
+        }
+
     }
 }
