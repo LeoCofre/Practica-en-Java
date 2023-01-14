@@ -25,7 +25,7 @@ public class Propuesto28 {
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese cargo del trabajador: ");
+        System.out.println("Ingrese cargo del trabajador: 'a'");
         System.out.println("");
 
     }
