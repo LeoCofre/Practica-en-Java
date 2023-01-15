@@ -20,16 +20,16 @@ public class Propuesto28 {
         */
 
         //Variables
-        int tiempo, utilidades;
-        char cargo;
+        int cargo, tiempo, utilidades;
+
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese cargo del trabajador:  ");
-        System.out.println("'A' si es Administrador");
-        System.out.println("'C' si es Contador");
-        System.out.println("'E' si es Empleado");
-        cargo = scanner.next().charAt(0);
+        System.out.println("1 si es Administrador");
+        System.out.println("2 si es Contador");
+        System.out.println("3 si es Empleado");
+        cargo = scanner.nextInt();
         System.out.println("Ingrese años de servicio");
         tiempo = scanner.nextInt();
 
