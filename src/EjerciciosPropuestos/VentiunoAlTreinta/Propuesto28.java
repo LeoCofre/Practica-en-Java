@@ -64,6 +64,7 @@ public class Propuesto28 {
             utilidades = 2000;
         if (cargo == 3 && tiempoDeServicio > 8)
             utilidades = 2500;
+        System.out.println();
         System.out.println("Valor de utilidades: " + utilidades);
     }
 }
