@@ -24,7 +24,6 @@ public class Propuesto28 {
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Ingrese años de servicio: ");
         tiempoDeServicio = scanner.nextInt();
         scanner.nextLine();
@@ -32,6 +31,8 @@ public class Propuesto28 {
         System.out.println("1.- Administrador");
         System.out.println("2.- Contador");
         System.out.println("3.- Empleado");
+
+        //Proceso
         do {
             cargo = scanner.nextInt();
             scanner.nextLine();
