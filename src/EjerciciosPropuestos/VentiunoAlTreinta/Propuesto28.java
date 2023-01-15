@@ -14,7 +14,7 @@ public class Propuesto28 {
 
         __Tiempo de servicio__        Administrador       Contador         Empleado
         Entre O y 2 años                  2000              1500            1000
-        Entre 3 y S años                  2500              2000            1500
+        Entre 3 y 5 años                  2500              2000            1500
         Entre 6 y 8 años                  3000              2500            2000
         Mayor a 8 años                    4000              3500            1500
         */
@@ -36,7 +36,8 @@ public class Propuesto28 {
         //Proceso
         if (cargo == 'A' || cargo == 'a' && tiempo <= 2){
             utilidades = 2000;
-        }else if (cargo == 'C'){
+        }else if (cargo == 'C' || cargo == 'c' && tiempo >= 3 && tiempo <= 5){
+            utilidades = 2500;
 
         }
 
