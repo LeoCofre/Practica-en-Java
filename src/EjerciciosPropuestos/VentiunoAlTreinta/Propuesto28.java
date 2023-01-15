@@ -36,6 +36,8 @@ public class Propuesto28 {
         //Proceso
         if (cargo == 'A' || cargo == 'a' && tiempo <= 2){
             utilidades = 2000;
+        }else if (cargo == 'C'){
+
         }
 
     }
