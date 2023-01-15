@@ -20,26 +20,50 @@ public class Propuesto28 {
         */
 
         //Variables
-        int cargo, tiempo, utilidades;
-
+        int cargo, tiempoDeServicio, utilidades;
 
         //Entrada
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese cargo del trabajador:  ");
-        System.out.println("1 si es Administrador");
-        System.out.println("2 si es Contador");
-        System.out.println("3 si es Empleado");
-        cargo = scanner.nextInt();
-        System.out.println("Ingrese años de servicio");
-        tiempo = scanner.nextInt();
 
-        //Proceso
-        if (cargo == 'A' || cargo == 'a' && tiempo <= 2){
+        System.out.print("Ingrese años de servicio: ");
+        tiempoDeServicio = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Ingrese cargo de trabajador");
+        System.out.println("1.- Administrador");
+        System.out.println("2.- Contador");
+        System.out.println("3.- Empleado");
+        do {
+            cargo = scanner.nextInt();
+            scanner.nextLine();
+            if (cargo < 1 || cargo > 3)
+                System.out.print("Valor incorrecto, ingreselo nuevamente: ");
+        } while (cargo < 1 || cargo > 3);
+        utilidades = 0;
+        if (cargo == 1 && tiempoDeServicio <= 2)
             utilidades = 2000;
-        }else if (cargo == 'C' || cargo == 'c' && tiempo >= 3 && tiempo <= 5){
+        if (cargo == 1 && tiempoDeServicio > 2 && tiempoDeServicio <= 5)
             utilidades = 2500;
-
-        }
-
+        if (cargo == 1 && tiempoDeServicio > 5 && tiempoDeServicio <= 8)
+            utilidades = 3000;
+        if (cargo == 1 && tiempoDeServicio > 8)
+            utilidades = 4000;
+        if (cargo == 2 && tiempoDeServicio <= 2)
+            utilidades = 1500;
+        if (cargo == 2 && tiempoDeServicio > 2 && tiempoDeServicio <= 5)
+            utilidades = 2000;
+        if (cargo == 2 && tiempoDeServicio > 5 && tiempoDeServicio <= 8)
+            utilidades = 2500;
+        if (cargo == 2 && tiempoDeServicio > 8)
+            utilidades = 3500;
+        if (cargo == 3 && tiempoDeServicio <= 2)
+            utilidades = 1000;
+        if (cargo == 3 && tiempoDeServicio > 2 && tiempoDeServicio <= 5)
+            utilidades = 1500;
+        if (cargo == 3 && tiempoDeServicio > 5 && tiempoDeServicio <= 8)
+            utilidades = 2000;
+        if (cargo == 3 && tiempoDeServicio > 8)
+            utilidades = 2500;
+        System.out.println("Valor de utilidades: " + utilidades);
     }
 }
+
