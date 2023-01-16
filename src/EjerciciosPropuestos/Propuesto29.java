@@ -26,6 +26,8 @@ public class Propuesto29 {
         System.out.println("Ingrese sexo:");
         System.out.println("1.- Masculino");
         System.out.println("2.- Femenino");
+        sexo = scanner.nextInt();
+
     }
 
 }
