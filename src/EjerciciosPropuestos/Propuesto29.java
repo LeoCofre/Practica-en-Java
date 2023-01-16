@@ -1,5 +1,7 @@
 package EjerciciosPropuestos;
 
+import java.util.Scanner;
+
 public class Propuesto29 {
 
     public static void main(String[] args) {
@@ -18,6 +20,12 @@ public class Propuesto29 {
         //Variables
         int puntaje, sexo;
         String cuidad = "";
+
+        //Entrada
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese sexo:");
+        System.out.println("1.- Masculino");
+        System.out.println("2.- Femenino");
     }
 
 }
