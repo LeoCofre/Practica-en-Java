@@ -33,7 +33,6 @@ public class Propuesto29 {
                 System.out.print("Valor incorrecto, ingreselo nuevamente: ");
             }
         } while (sexo <= 0 || sexo > 2);
-
         System.out.println("Ingrese puntaje");
 
         //Proceso
@@ -47,12 +46,25 @@ public class Propuesto29 {
         if (sexo == 1 && puntaje >= 18 && puntaje <= 35) {
             cuidad = "Arequipa";
         }
-        if (sexo == 1 && puntaje >= 18 && puntaje <= 35) {
+        if (sexo == 1 && puntaje >= 36 && puntaje <= 75) {
+            cuidad = "Cusco";
+        }
+        if (sexo == 1 && puntaje >= 76) {
+            cuidad = "Iquito";
+        }
+        if (sexo == 2 && puntaje >= 18 && puntaje <= 35) {
+            cuidad = "Cusco";
+        }
+        if (sexo == 2 && puntaje >= 36 && puntaje <= 75) {
+            cuidad = "Iquito";
+        }
+        if (sexo == 2 && puntaje >= 76) {
             cuidad = "Arequipa";
         }
-        if (sexo == 1 && puntaje >= 18 && puntaje <= 35) {
-            cuidad = "Arequipa";
-        }
+
+        //Salida
+        System.out.println();
+        System.out.println("La cuidad que visitará es " + cuidad);
 
     }
 
