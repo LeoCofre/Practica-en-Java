@@ -27,11 +27,18 @@ public class Propuesto29 {
         System.out.println("1.- Masculino");
         System.out.println("2.- Femenino");
         sexo = scanner.nextInt();
-        System.out.println("Ingrese puntaje:");
-        puntaje = scanner.nextInt();
 
         //Proceso
+        do {
+            puntaje = scanner.nextInt();
+            scanner.nextLine();
+            if (puntaje < 0 || puntaje > 100) {
+                System.out.print("Valor incorrecto, ingreselo nuevamente: ");
+            }
+        } while (puntaje < 0 || puntaje > 100);
+        if (sexo == 1 && puntaje >= 18 && puntaje <= 35){
 
+        }
 
     }
 
