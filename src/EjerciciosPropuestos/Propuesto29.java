@@ -26,7 +26,15 @@ public class Propuesto29 {
         System.out.println("Ingrese sexo:");
         System.out.println("1.- Masculino");
         System.out.println("2.- Femenino");
-        sexo = scanner.nextInt();
+        do {
+            sexo = scanner.nextInt();
+            scanner.nextLine();
+            if (sexo <= 0 || sexo > 2) {
+                System.out.print("Valor incorrecto, ingreselo nuevamente: ");
+            }
+        } while (sexo <= 0 || sexo > 2);
+
+        System.out.println("Ingrese puntaje");
 
         //Proceso
         do {
@@ -36,8 +44,14 @@ public class Propuesto29 {
                 System.out.print("Valor incorrecto, ingreselo nuevamente: ");
             }
         } while (puntaje < 0 || puntaje > 100);
-        if (sexo == 1 && puntaje >= 18 && puntaje <= 35){
-
+        if (sexo == 1 && puntaje >= 18 && puntaje <= 35) {
+            cuidad = "Arequipa";
+        }
+        if (sexo == 1 && puntaje >= 18 && puntaje <= 35) {
+            cuidad = "Arequipa";
+        }
+        if (sexo == 1 && puntaje >= 18 && puntaje <= 35) {
+            cuidad = "Arequipa";
         }
 
     }
