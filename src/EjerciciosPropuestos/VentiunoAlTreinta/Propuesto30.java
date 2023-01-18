@@ -53,9 +53,11 @@ public class Propuesto30 {
             diasRestantes = 31 - diaActual + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 31;
         } else if (mesActual == 2) {
             // Febrero
+            assert false;
             diasRestantes = 31 - diaActual + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 31 + (ahora.isLeapYear() ? 29 : 28);
         } else if (mesActual == 1) {
             // Enero
+            assert false;
             diasRestantes = 31 - diaActual + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 31 + (ahora.isLeapYear() ? 29 : 28) + 31;
         }
         System.out.println("Días restantes en el año: " + diasRestantes);
