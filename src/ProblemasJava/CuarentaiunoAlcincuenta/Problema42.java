@@ -20,9 +20,9 @@ public class Problema42 {
 
         //Proceso
         iterador = numeroInicial + 1;
-        while (iterador < numeroFinal){
+        while (iterador < numeroFinal) {
             cantidad += 1;
-            iterador ++;
+            iterador++;
         }
 
         //Salida
