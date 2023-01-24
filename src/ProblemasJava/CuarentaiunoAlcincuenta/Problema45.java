@@ -9,21 +9,21 @@ public class Problema45 {
         //Dado un número, determinar cuantos dígitos tiene.
 
         //Variables
-        int i, n, c = 0;
+        int numero, cantidadDigitos = 0;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Numero: ");
-        n = teclado.nextInt();
+        numero = teclado.nextInt();
 
         //Proceso
-        while (n > 0) {
-            n = n / 10;
-            c += 1;
+        while (numero > 0) {
+            numero = numero / 10;
+            cantidadDigitos += 1;
         }
 
         // Salida
         System.out.println("");
-        System.out.println("Cant . Digitos : " + c);
+        System.out.println("Cant . Digitos : " + cantidadDigitos);
     }
 }
