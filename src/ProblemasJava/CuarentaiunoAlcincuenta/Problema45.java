@@ -24,6 +24,6 @@ public class Problema45 {
 
         // Salida
         System.out.println("");
-        System.out.println("Cant . Digitos : " + cantidadDigitos);
+        System.out.println("Cantidad digitos : " + cantidadDigitos);
     }
 }
