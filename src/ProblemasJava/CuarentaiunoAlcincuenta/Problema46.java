@@ -17,10 +17,8 @@ public class Problema46 {
 
         //Proceso
         while (n > 0) {
-
             d = n % 10;
             if (d % 2 == 0) {
-
                 n /= 10;
             }
         }
