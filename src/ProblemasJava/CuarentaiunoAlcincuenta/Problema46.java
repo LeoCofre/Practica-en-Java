@@ -9,22 +9,24 @@ public class Problema46 {
         //Dado un número, determinar la cantidad de dígitos pares que contiene.
 
         //Variables
-        int d, c = 0, n;
+        int digito, numero, digitosPares = 0;
+
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("ingrese Numero : ");
-        n = teclado.nextInt();
+        numero = teclado.nextInt();
 
         //Proceso
-        while (n > 0) {
-            d = n % 10;
-            if (d % 2 == 0) {
-                n /= 10;
+        while (numero > 0) {
+            digito = numero % 10;
+            if (digito % 2 == 0) {
+                digitosPares += 1;
             }
+            numero /= 10;
         }
+
         // Salida
-        c += 1;
         System.out.println("");
-        System.out.println("Cantidad de dígitos pares: " + c);
+        System.out.println("Cantidad de dígitos pares: " + digitosPares);
     }
 }
