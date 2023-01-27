@@ -9,24 +9,24 @@ public class Problema47 {
         //Dado un número, devolver el dígito mayor.
 
         //Variables
-        int d, m = 0, n;
+        int digito, numero, mayor = 0;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Numero : ");
-        n = teclado.nextInt();
+        numero = teclado.nextInt();
 
         //Proceso
-        while (n > 0) {
-            d = n % 10;
-            if (d > m) {
-                m = d;
+        while (numero > 0) {
+            digito = numero % 10;
+            if (digito > mayor) {
+                mayor = digito;
             }
-            n /= 10;
+            numero /= 10;
         }
 
         //Salida
         System.out.println("");
-        System.out.println("Digito Mayor: " + m);
+        System.out.println("Digito Mayor: " + mayor);
     }
 }
