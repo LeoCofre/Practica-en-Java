@@ -1,4 +1,4 @@
-package ProblemasJava.CuarentaiunoAlcincuenta;
+package ProblemasJava.CuarentaiunoAlCincuenta;
 
 import java.util.Scanner;
 
