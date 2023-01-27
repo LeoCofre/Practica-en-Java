@@ -13,7 +13,7 @@ public class Problema47 {
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Numero : ");
+        System.out.print("Ingrese Numero: ");
         numero = teclado.nextInt();
 
         //Proceso
