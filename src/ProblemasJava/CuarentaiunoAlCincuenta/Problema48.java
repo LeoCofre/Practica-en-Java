@@ -13,39 +13,39 @@ public class Problema48 {
         Divisores de 284 son: 1 + 2 + 4 + 71 + 142 = 284*/
 
         //Variables
-        int i, n1, n2, s1 = 0, s2 = 0;
-        String r = "";
+        int iterador, primerNumero, segundoNumero, sumaPrimerNumero = 0, sumaSegundoNumero = 0;
+        String respuesta = "";
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print(" Numero 1 : ");
-        n1 = teclado.nextInt();
+        primerNumero = teclado.nextInt();
         System.out.print(" Numero 2 :");
-        n2 = teclado.nextInt();
+        segundoNumero = teclado.nextInt();
 
         //Proceso
-        i = 1;
-        while (i <= n1 / 2) {
-            if (n1 % i == 0) {
-                s1 += i;
+        iterador = 1;
+        while (iterador <= primerNumero / 2) {
+            if (primerNumero % iterador == 0) {
+                sumaPrimerNumero += iterador;
             }
-            i++;
+            iterador++;
         }
 
-        i = 1;
-        while (i <= n2 / 2) {
-            if (n2 % i == 0) {
-                s2 += i;
+        iterador = 1;
+        while (iterador <= segundoNumero / 2) {
+            if (segundoNumero % iterador == 0) {
+                sumaSegundoNumero += iterador;
             }
-            i++;
+            iterador++;
         }
-        if (n1 == s2 && n2 == s1)
-            r = "SON AMIGOS ";
+        if (primerNumero == sumaSegundoNumero && segundoNumero == sumaPrimerNumero)
+            respuesta = "SON AMIGOS ";
         else
-            r = "NO SON AMIGOS ";
+            respuesta = "NO SON AMIGOS ";
 
         // Salida
         System.out.println("");
-        System.out.println("Resultado: " + r);
+        System.out.println("Resultado: " + respuesta);
     }
 }
