@@ -33,7 +33,6 @@ public class Problema48 {
         }
 
         i = 1;
-
         while (i <= n2 / 2) {
             if (n2 % i == 0) {
                 s2 += i;
