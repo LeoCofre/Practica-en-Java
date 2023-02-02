@@ -15,5 +15,6 @@ public class Problema51 {
         restado (3) y el residuo es el último número obtenido (248).*/
 
 
+
     }
 }
