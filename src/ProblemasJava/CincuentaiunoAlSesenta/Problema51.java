@@ -1,5 +1,7 @@
 package ProblemasJava.CincuentaiunoAlSesenta;
 
+import java.util.Scanner;
+
 public class Problema51 {
 
     public static void main(String[] args) {
@@ -14,7 +16,25 @@ public class Problema51 {
         Ya no se puede seguir restando, pues 248 es menor a 1247, entonces el cociente es el número de veces
         restado (3) y el residuo es el último número obtenido (248).*/
 
+        //Variables
+        int n, d, c = 0, r;
 
+        //Entrada
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Numerador: ");
+        n = teclado.nextInt();
+        System.out.print("Denominador : ");
+        d = teclado.nextInt();
 
+        //Proceso
+        while (n >= d) {
+            n -= d;
+            c++;
+        }
+        r = n;
+
+        //Salida
+        System.out.println();
+        System.out.println("Cociente : " + c);
     }
 }
