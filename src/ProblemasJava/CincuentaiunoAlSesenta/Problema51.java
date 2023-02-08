@@ -17,24 +17,24 @@ public class Problema51 {
         restado (3) y el residuo es el último número obtenido (248).*/
 
         //Variables
-        int n, d, c = 0, r;
+        int numerador, denominador, cociente = 0, resultado;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Numerador: ");
-        n = teclado.nextInt();
+        numerador = teclado.nextInt();
         System.out.print("Denominador : ");
-        d = teclado.nextInt();
+        denominador = teclado.nextInt();
 
         //Proceso
-        while (n >= d) {
-            n -= d;
-            c++;
+        while (numerador >= denominador) {
+            numerador -= denominador;
+            cociente++;
         }
-        r = n;
+        resultado = numerador;
 
         //Salida
         System.out.println();
-        System.out.println("Cociente : " + c);
+        System.out.println("Cociente : " + cociente);
     }
 }
