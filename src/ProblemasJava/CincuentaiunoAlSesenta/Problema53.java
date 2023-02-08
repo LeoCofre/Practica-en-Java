@@ -10,34 +10,34 @@ public class Problema53 {
         aquel que solo es divisible por 1 y por sí mismo.*/
 
         //Variables
-        int n, i;
-        boolean flag;
-        String r = "";
+        int numero, i;
+        boolean esPrimo;
+        String respuesta;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Numero");
-        n = teclado.nextInt();
+        numero = teclado.nextInt();
 
         //Proceso
-        flag = true;
+        esPrimo = true;
         i = 2;
 
-        while (i <= n / 2) {
-            if (n % i == 0) {
-                flag = false;
+        while (i <= numero / 2) {
+            if (numero % i == 0) {
+                esPrimo = false;
                 break;
             }
             i++;
         }
 
-        if (flag)
-            r = " ES PRIMO";
+        if (esPrimo)
+            respuesta = " ES PRIMO";
         else
-            r = " NO ES PRIMO";
+            respuesta = " NO ES PRIMO";
 
         // Salida
         System.out.println("");
-        System.out.println("Respuesta: " + r);
+        System.out.println("Respuesta: " + respuesta);
     }
 }
