@@ -8,18 +8,23 @@ public class Problema54 {
     que un número pertenece a una base si sus dígitos son menores a su base.*/
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Ingrese un número: ");
-        int num = sc.nextInt();
-
-        System.out.println("Ingrese la base: ");
-        int base = sc.nextInt();
-
+        //Variables
+        int num, base, digit, resto;
         boolean pertenece = true;
-        int resto = num;
+        String resultado;
+
+        //Entrada
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese un número: ");
+        num = sc.nextInt();
+        System.out.println("Ingrese la base: ");
+        base = sc.nextInt();
+
+        //Proceso
+        resto = num;
         while (resto > 0) {
-            int digit = resto % 10;
+            digit = resto % 10;
             if (digit >= base) {
                 pertenece = false;
                 break;
@@ -28,10 +33,14 @@ public class Problema54 {
         }
 
         if (pertenece) {
-            System.out.println("El número " + num + " pertenece a la base " + base);
+            resultado = "Base Correcta";
         } else {
-            System.out.println("El número " + num + " no pertenece a la base " + base);
+            resultado = "Base Incorrecta";
         }
+
+        //Salida
+        System.out.println();
+        System.out.println("El resultado es: " + resultado);
     }
 }
 
