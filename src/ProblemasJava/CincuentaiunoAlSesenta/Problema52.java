@@ -11,7 +11,7 @@ public class Problema52 {
         capicúa . */
 
         //Variables
-        int numero, numeroInvertido = 0, d, t;
+        int numero, invertido = 0, ultimoDigito, original;
         String respuesta;
 
         //Entrada
@@ -20,14 +20,14 @@ public class Problema52 {
         numero = teclado.nextInt();
 
         //Proceso
-        t = numero;
-        while (t > 0) {
-            d = t % 10;
-            t = t / 10;
-            numeroInvertido = numeroInvertido * 10 + d;
+        original = numero;
+        while (original > 0) {
+            ultimoDigito = original % 10;
+            original = original / 10;
+            invertido = invertido * 10 + ultimoDigito;
         }
 
-        if (numero == numeroInvertido)
+        if (numero == invertido)
             respuesta = "ES CAPICUA";
         else
             respuesta = "NO ES CAPICUA";
