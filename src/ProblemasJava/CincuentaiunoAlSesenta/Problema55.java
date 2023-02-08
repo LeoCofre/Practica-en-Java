@@ -9,19 +9,19 @@ public class Problema55 {
         //Dado un número entero en base 10, convertir el número a otra base menor que 10.
 
         //Variables
-        int n, b, d, i = 0, r = 0;
+        int numero, base, d, i = 0, r = 0;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print(" Nume r o Base 10 : ");
-        n = teclado.nextInt();
+        numero = teclado.nextInt();
         System.out.print("Convertir a base:");
-        b = teclado.nextInt();
+        base = teclado.nextInt();
 
         //Proceso
-        while (n > 0) {
-            d = n % b;
-            n /= b;
+        while (numero > 0) {
+            d = numero % base;
+            numero /= base;
             i = i * 10 + d;
         }
         while (i > 0) {
