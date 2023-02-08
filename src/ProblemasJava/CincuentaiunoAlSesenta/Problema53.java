@@ -10,7 +10,7 @@ public class Problema53 {
         aquel que solo es divisible por 1 y por sí mismo.*/
 
         //Variables
-        int numero, i;
+        int numero, iterador;
         boolean esPrimo;
         String respuesta;
 
@@ -21,14 +21,14 @@ public class Problema53 {
 
         //Proceso
         esPrimo = true;
-        i = 2;
+        iterador = 2;
 
-        while (i <= numero / 2) {
-            if (numero % i == 0) {
+        while (iterador <= numero / 2) {
+            if (numero % iterador == 0) {
                 esPrimo = false;
                 break;
             }
-            i++;
+            iterador++;
         }
 
         if (esPrimo)
