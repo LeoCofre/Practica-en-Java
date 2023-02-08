@@ -37,7 +37,7 @@ public class Problema53 {
             respuesta = " NO ES PRIMO";
 
         // Salida
-        System.out.println("");
+        System.out.println();
         System.out.println("Respuesta: " + respuesta);
     }
 }
