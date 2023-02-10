@@ -26,6 +26,7 @@ public class Propuesto33 {
             iterador++;
         }
 
+        System.out.println();
         System.out.println("Suma: " + suma);
         System.out.println("Producto: " + producto);
     }
