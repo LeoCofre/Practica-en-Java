@@ -13,7 +13,7 @@ public class Problema56 {
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Numero: ");
+        System.out.print("Ingrese Numero: ");
         numero = teclado.nextInt();
 
         //Proceso
@@ -22,7 +22,7 @@ public class Problema56 {
 
         //Salida
         System.out.println();
-        System.out.println("Suma: " + suma);
+        System.out.println("La suma es: " + suma);
 
     }
 }
