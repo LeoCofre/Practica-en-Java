@@ -9,20 +9,20 @@ public class Problema56 {
         //Obtener la suma de los primeros N números naturales positivos.
 
         //Variables
-        int i, n, s = 0;
+        int iterador, numero, suma = 0;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Numero: ");
-        n = teclado.nextInt();
+        numero = teclado.nextInt();
 
         //Proceso
-        for (i = 1; i <= n; i++)
-            s = s + i;
+        for (iterador = 1; iterador <= numero; iterador++)
+            suma = suma + iterador;
 
         //Salida
         System.out.println();
-        System.out.println("Suma: " + s);
+        System.out.println("Suma: " + suma);
 
     }
 }
