@@ -29,6 +29,5 @@ public class Propuesto31 {
         //Salida
         System.out.println();
         System.out.println("El factorial de " + numero + " es " + factorial);
-
     }
 }
