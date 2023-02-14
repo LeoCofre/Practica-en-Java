@@ -1,4 +1,4 @@
-package EjerciciosPropuestos.TreintaiunoAlCuarenta;
+    package EjerciciosPropuestos.TreintaiunoAlCuarenta;
 
 import java.util.Scanner;
 
