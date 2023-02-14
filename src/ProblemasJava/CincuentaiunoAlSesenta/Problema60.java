@@ -16,6 +16,5 @@ public class Problema60 {
         System.out.println("Ingrese Número:");
         numero = teclado.nextInt();
 
-
     }
 }
