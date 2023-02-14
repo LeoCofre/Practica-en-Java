@@ -28,6 +28,6 @@ public class Problema58 {
 
         //Salida
         System.out.println();
-        System.out.println("Cantidad de números pares : " + cantidadPares);
+        System.out.println("Cantidad de números pares: " + cantidadPares);
     }
 }
