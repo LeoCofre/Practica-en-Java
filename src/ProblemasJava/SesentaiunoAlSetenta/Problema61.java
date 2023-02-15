@@ -17,7 +17,7 @@ public class Problema61 {
         numero = teclado.nextInt();
 
         //Proceso
-        for (iterador = 1; iterador >= numero; iterador++)
+        for (iterador = 1; iterador <= numero; iterador++)
             cuadrado = cuadrado + (2 * iterador - 1);
 
         //Salida

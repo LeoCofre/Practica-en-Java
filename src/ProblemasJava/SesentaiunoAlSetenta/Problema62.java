@@ -1,5 +1,7 @@
 package ProblemasJava.SesentaiunoAlSetenta;
 
+import java.util.Scanner;
+
 public class Problema62 {
 
     public static void main(String[] args) {
@@ -13,6 +15,17 @@ public class Problema62 {
         int numero, iterador, suma = 0;
         String respuesta = "";
 
+        //Entrada
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese número: ");
+        numero = teclado.nextInt();
+
+        //Proceso
+        for (iterador = 1; iterador <= numero; iterador++){
+            if (numero %  iterador == 0){
+                suma += iterador;
+            }
+        }
 
     }
 }
