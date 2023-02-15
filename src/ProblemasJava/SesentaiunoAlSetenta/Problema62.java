@@ -10,5 +10,9 @@ public class Problema62 {
         divisores 1, 3, entonces 1 + 3 = 4, por lo tanto no es perfecto.*/
 
         //Variables
+        int numero, iterador, suma = 0;
+        String respuesta = "";
+
+
     }
 }
