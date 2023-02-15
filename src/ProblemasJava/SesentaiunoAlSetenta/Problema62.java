@@ -13,7 +13,7 @@ public class Problema62 {
 
         //Variables
         int numero, iterador, suma = 0;
-        String respuesta = "";
+        String resultado;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
@@ -21,11 +21,18 @@ public class Problema62 {
         numero = teclado.nextInt();
 
         //Proceso
-        for (iterador = 1; iterador <= numero; iterador++){
-            if (numero %  iterador == 0){
+        for (iterador = 1; iterador <= numero; iterador++) {
+            if (numero % iterador == 0)
                 suma += iterador;
-            }
         }
+        if (suma == numero)
+            resultado = "Es un número 'Perfecto'";
+        else
+            resultado = "No es un número 'Perfecto'";
+
+        //Salida
+        System.out.println();
+        System.out.println(resultado);
 
     }
 }
