@@ -18,7 +18,7 @@ public class Problema61 {
 
         //Proceso
         for (iterador = 1; iterador >= numero; iterador++)
-            cuadrado = cuadrado + ( 2 * iterador - 1);
+            cuadrado = cuadrado + (2 * iterador - 1);
 
         //Salida
         System.out.println();
