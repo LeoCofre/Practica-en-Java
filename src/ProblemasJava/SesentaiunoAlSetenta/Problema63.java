@@ -13,33 +13,33 @@ public class Problema63 {
         */
 
         //Variables
-        int i, n1, n2, s1 = 0, s2 = 0;
-        String r;
+        int iterador, numeroUno, numeroDos, sumaUno = 0, sumaDos = 0;
+        String resultado;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Numero 1: ");
-        n1 = teclado.nextInt();
+        numeroUno = teclado.nextInt();
         System.out.print("Numero 2: ");
-        n2 = teclado.nextInt();
+        numeroDos = teclado.nextInt();
 
         //Proceso
-        for (i = 1; i <= n1 / 2; i++) {
-            if (n1 % i == 0)
-                s1 += i;
+        for (iterador = 1; iterador <= numeroUno / 2; iterador++) {
+            if (numeroUno % iterador == 0)
+                sumaUno += iterador;
         }
-        for (i = 1; i <= n2 / 2; i++) {
-            if (n2 % i == 0)
-                s2 += i;
+        for (iterador = 1; iterador <= numeroDos / 2; iterador++) {
+            if (numeroDos % iterador == 0)
+                sumaDos += iterador;
         }
-        if (n1 == s2 && n2 == s1)
-            r = "SON AMIGOS ";
+        if (numeroUno == sumaDos && numeroDos == sumaUno)
+            resultado = "SON AMIGOS ";
         else
-            r = "NO SON AMIGOS ";
+            resultado = "NO SON AMIGOS ";
 
         //Salida
         System.out.println();
-        System.out.println("Resultado : " + r);
+        System.out.println("Resultado : " + resultado);
 
     }
 }
