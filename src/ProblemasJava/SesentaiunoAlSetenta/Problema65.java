@@ -20,8 +20,19 @@ public class Problema65 {
         numeroFinal = teclado.nextInt();
 
         //Proceso
+        for (iterador = numeroInicial; iterador <= numeroFinal; iterador++) {
+            if (iterador != 0) {
+                if (iterador < 0)
+                    cantidadNegativos += 1;
+                else
+                    cantidadPositivos += 1;
+            }
+        }
 
-
+        //Salida
+        System.out.println();
+        System.out.println("Cantidad de números positivos: " + cantidadPositivos);
+        System.out.println("Cantidad de números negativos: " + cantidadNegativos);
 
     }
 }
