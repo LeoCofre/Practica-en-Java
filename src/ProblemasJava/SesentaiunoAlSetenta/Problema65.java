@@ -14,6 +14,13 @@ public class Problema65 {
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese número inicial: ");
+        numeroInicial = teclado.nextInt();
+        System.out.println("Ingrese número final: ");
+        numeroFinal = teclado.nextInt();
+
+        //Proceso
+
 
 
     }
