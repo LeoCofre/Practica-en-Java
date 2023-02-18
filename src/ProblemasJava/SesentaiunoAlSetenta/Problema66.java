@@ -20,5 +20,15 @@ public class Problema66 {
         System.out.println("Ingrese multiplo");
         multiplo = teclado.nextInt();
 
+        //Proceso
+        for (iterador = numeroInicial; iterador <= numeroFinal; iterador++) {
+            if (iterador % multiplo == 0)
+                cantidad += 1;
+        }
+
+        //Salida
+        System.out.println();
+        System.out.println("La cantidad de multiplos es: " + cantidad);
+
     }
 }
