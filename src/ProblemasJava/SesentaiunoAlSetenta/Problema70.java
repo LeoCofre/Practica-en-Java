@@ -15,9 +15,9 @@ public class Problema70 {
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Numero : ");
+        System.out.print("Numero: ");
         numero = teclado.nextInt();
-        System.out.print("Divisor : ");
+        System.out.print("Divisor: ");
         divisor = teclado.nextInt();
 
         //Proceso
