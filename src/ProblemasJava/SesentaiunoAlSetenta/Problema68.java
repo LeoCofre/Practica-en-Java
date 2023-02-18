@@ -18,7 +18,14 @@ public class Problema68 {
         System.out.println("Ingrese número: ");
         numero = teclado.nextInt();
 
-
+        //Proceso
+        flag = true;
+        iterador = 2;
+        for (iterador = 2; iterador <= numero / 2; iterador++){
+            if (numero % iterador == 0){
+                flag = false;
+            }
+        }
 
     }
 }
