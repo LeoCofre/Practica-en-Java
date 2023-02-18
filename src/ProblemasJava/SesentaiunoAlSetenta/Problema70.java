@@ -11,17 +11,17 @@ public class Problema70 {
         antecesor de 21. */
 
         //Variables
-        int n, d, i, r = 0;
+        int numero, d, i, r = 0;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Numero : ");
-        n = teclado.nextInt();
+        numero = teclado.nextInt();
         System.out.print("Divisor : ");
         d = teclado.nextInt();
 
         //Proceso
-        for (i = n - 1; i >= 1; i -= 1) {
+        for (i = numero - 1; i >= 1; i -= 1) {
             if (i % d == 0) {
                 r = i;
                 break;
