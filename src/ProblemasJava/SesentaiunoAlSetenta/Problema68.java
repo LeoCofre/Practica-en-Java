@@ -20,12 +20,21 @@ public class Problema68 {
 
         //Proceso
         flag = true;
-        iterador = 2;
-        for (iterador = 2; iterador <= numero / 2; iterador++){
-            if (numero % iterador == 0){
+        for (iterador = 2; iterador <= numero / 2; iterador++) {
+            if (numero % iterador == 0) {
                 flag = false;
+                break;
             }
         }
+
+        if (flag)
+            respuesta = "ES PRIMO";
+        else
+            respuesta = " NO ES PRIMO";
+
+        //Salida
+        System.out.println();
+        System.out.println("Respuesta : " + respuesta);
 
     }
 }
