@@ -31,6 +31,8 @@ public class Problema71 {
         for (iterador = 0; iterador <= 4; iterador++)
             suma += numeros[iterador];
 
-
+        //Salida
+        System.out.println();
+        System.out.println("La suma es: ");
     }
 }
