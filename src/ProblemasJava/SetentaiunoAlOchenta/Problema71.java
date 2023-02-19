@@ -12,7 +12,7 @@ public class Problema71 {
         int iterador, suma = 0;
 
         //Arreglos
-        int numeros[] = new int[5];
+        int[] numeros = new int[5];
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
