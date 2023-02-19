@@ -33,6 +33,6 @@ public class Problema71 {
 
         //Salida
         System.out.println();
-        System.out.println("La suma es: ");
+        System.out.println("La suma es: " + suma);
     }
 }
