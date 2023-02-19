@@ -6,7 +6,7 @@ public class Problema71 {
 
     public static void main(String[] args) {
 
-        //Dado S números obtener la suma.
+        //Dado 5 números obtener la suma.
 
         //Variables
         int iterador, suma = 0;
