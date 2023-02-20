@@ -9,7 +9,7 @@ public class Problema72 {
         //Dado 5 números obtener el número mayor.
 
         //Variables
-        int iterador, suma = 0;
+        int iterador, mayor = 0;
 
         //Arreglos
         int[] numeros = new int[5];
@@ -26,6 +26,16 @@ public class Problema72 {
         numeros[3] = teclado.nextInt();
         System.out.println("Ingrese quinto número: ");
         numeros[4] = teclado.nextInt();
+
+        //Proceso
+        for (iterador = 0; iterador <= 4; iterador++) {
+            if (numeros[iterador] > mayor)
+                mayor = numeros[iterador];
+        }
+
+        //Salida
+        System.out.println();
+        System.out.println("El número mayor es: " + mayor);
 
     }
 }
