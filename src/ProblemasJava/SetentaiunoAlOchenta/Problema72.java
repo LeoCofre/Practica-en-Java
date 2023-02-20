@@ -29,7 +29,7 @@ public class Problema72 {
 
         //Proceso
         for (iterador = 0; iterador <= 4; iterador++) {
-            if (numeros[iterador] > mayor)
+               if (numeros[iterador] > mayor)
                 mayor = numeros[iterador];
         }
 
