@@ -35,6 +35,10 @@ public class Problema73 {
             if (numeros[iterador] % divisor == 0)
                 cantidad += 1;
         }
+
+        //Salida
+        System.out.println();
+        System.out.println("La cantidad de números multiplos es: " + cantidad);
     }
 
 }
