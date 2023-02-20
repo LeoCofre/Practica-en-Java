@@ -29,6 +29,12 @@ public class Problema73 {
         numeros[4] = teclado.nextInt();
         System.out.println("Ingrese divisor:");
         divisor = teclado.nextInt();
+
+        //Proceso
+        for (iterador = 0; iterador <= numeros.length - 1; iterador++) {
+            if (numeros[iterador] % divisor == 0)
+                cantidad += 1;
+        }
     }
 
 }
