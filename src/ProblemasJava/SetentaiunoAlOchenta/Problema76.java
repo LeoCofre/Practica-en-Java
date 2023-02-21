@@ -8,5 +8,10 @@ public class Problema76 {
         llamado B, y determine cuántos números de A se encuentran en B.*/
 
         //Variables
+        int c = 0, i, j;
+
+        //Arreglos
+        int a[] = new int[4];
+        int b[] = new int[4];
     }
 }
