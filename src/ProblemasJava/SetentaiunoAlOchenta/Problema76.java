@@ -11,7 +11,7 @@ public class Problema76 {
         int c = 0, i, j;
 
         //Arreglos
-        int a[] = new int[4];
-        int b[] = new int[4];
+        int[] a = new int[4];
+        int[] b = new int[4];
     }
 }
