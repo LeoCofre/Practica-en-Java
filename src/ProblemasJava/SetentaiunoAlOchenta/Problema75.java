@@ -1,6 +1,5 @@
 package ProblemasJava.SetentaiunoAlOchenta;
 
-import javax.jnlp.SingleInstanceListener;
 import java.util.Scanner;
 
 public class Problema75 {
