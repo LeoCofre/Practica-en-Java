@@ -28,5 +28,29 @@ public class Problema76 {
         a[2] = teclado.nextInt();
         System.out.print("Numero 4: ");
         a[3] = teclado.nextInt();
+
+        System.out.println();
+        System.out.println("Arreglo B: ");
+        System.out.println("==========");
+        System.out.print("Numero 1: ");
+        b[0] = teclado.nextInt();
+        System.out.print("Numero 2: ");
+        b[1] = teclado.nextInt();
+        System.out.print("Numero 3: ");
+        b[2] = teclado.nextInt();
+        System.out.print("Numero 4: ");
+        b[3] = teclado.nextInt();
+
+        //Proceso
+        for (i = 0; i <= a.length - 1; i++) {
+            for (j = 0; j <= b.length - 1; j++) {
+                if (a[i] == b[j])
+                    c += 1;
+            }
+        }
+
+        //Salida
+        System.out.println();
+        System.out.println("Cantidad : " + c);
     }
 }
