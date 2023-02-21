@@ -27,10 +27,10 @@ public class Problema21 {
         if (t < 10) {
             c = "FRIO";
         } else {
-            if (t >= 10 && t <= 20) {
+            if (t <= 20) {
                 c = "NUBLADO";
             } else {
-                if (t >= 21 && t <= 30) {
+                if (t <= 30) {
                     c = "CALOR";
                 } else {
                     c = " TROPICAL";

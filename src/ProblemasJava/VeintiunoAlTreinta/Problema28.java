@@ -37,8 +37,7 @@ public class Problema28 {
         } else if (operador == '/') {
             if (segundoNumero != 0) {
                 resultado = primerNumero / segundoNumero;
-            } else
-                resultado = 0;
+            }
         }
 
         //Salida

@@ -25,20 +25,18 @@ public class Propuesto20 {
         c = teclado.nextInt();
 
         //proceso
-        if (a == b && b == c && c == a) {
+        if (a == b && b == c) {
             mensaje = "EQUILATERO";
         } else {
-            if (a == b && c != a && c != b || b == c && a != c && a != b || c == a && b != a && b != c) {
+            if (a == b || b == c || c == a) {
                 mensaje = "ISOSCELES";
             } else {
-                if (a != b && b != c && c != a) {
-                    mensaje = "ESCALENO";
-                }
+                mensaje = "ESCALENO";
             }
         }
 
         //SALIDA
-        System.out.println("");
+        System.out.println();
         System.out.println("Resultado: " + mensaje);
 
     }

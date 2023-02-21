@@ -2,6 +2,7 @@ package ProblemasJava.SetentaiunoAlOchenta;
 
 import java.util.Scanner;
 
+@SuppressWarnings("ConstantConditions")
 public class Problema74 {
 
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class Problema74 {
 
         //Variables
         int cantidadPrimos = 0, i, j;
-        boolean flag;
+        boolean flag = false;
 
         //Arreglos
         int[] numeros = new int[5];
@@ -28,6 +29,26 @@ public class Problema74 {
         System.out.println("Ingrese quinto número");
         numeros[4] = scanner.nextInt();
 
+        //Proceso
+        for (i = 0; i <= 4; i++) {
+            flag = true;
+        }
 
+        for (j = 2; j <= numeros[i] / 2; j++) {
+            if (numeros[i] % j == 0) {
+                flag = false;
+                break;
+            }
+        }
+        if (flag) {
+            cantidadPrimos += 1;
+        }
+
+        //Salida
+        System.out.println();
+        System.out.println("Cantidad de números primos: " + cantidadPrimos);
     }
 }
+
+
+
