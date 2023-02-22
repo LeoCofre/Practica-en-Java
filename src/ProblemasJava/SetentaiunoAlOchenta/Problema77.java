@@ -25,5 +25,23 @@ public class Problema77 {
         System.out.print(" Numero 4 : ");
         n[3] = teclado.nextInt();
 
+        //Proceso
+        LI = 0;
+        LS = n.length - 1;
+
+        for (i = LI; i <= LS - 1; i++) {
+            for (j = LI; j <= LS - 1; j++) {
+
+
+                if (n[j] > n[j + 1]) {
+                    tmp = n[j];
+
+                    n[j] = n[j + 1];
+                    n[j + 1] = tmp;
+                }
+            }
+        }
+
+        //Salida
     }
 }
