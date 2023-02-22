@@ -42,6 +42,17 @@ public class Problema79 {
         System.out.println("Número (3,2)");
         numeros[3][2] = scanner.nextInt();
 
+        //Proceso
+        for (i = 0; i <= 3; i++)
+            sumaColumnaCero += numeros[i][0];
+        sumaColumnaUno += numeros[i][1];
+        sumaColumnaDos += numeros[i][2];
 
+        //Salida
+        System.out.println();
+        System.out.println("La suma de la columna '0' es: " + sumaColumnaCero);
+        System.out.println("La suma de la columna '1' es: " + sumaColumnaUno);
+        System.out.println("La suma de la columna '2' es: " + sumaColumnaDos);
     }
 }
+
