@@ -30,5 +30,14 @@ public class Problema78 {
         System.out.print("Numero (2 , 1 ): ");
         n[2][1] = teclado.nextInt();
 
+        //Proceso
+        for (i = 0; i <= 2; i++)
+            for (j = 0; j <= 1; j++)
+                s += n[i][j];
+
+        //Salida
+        System.out.println();
+        System.out.println("La suma es: " + s);
+
     }
 }
