@@ -31,11 +31,8 @@ public class Problema77 {
 
         for (i = LI; i <= LS - 1; i++) {
             for (j = LI; j <= LS - 1; j++) {
-
-
                 if (n[j] > n[j + 1]) {
                     tmp = n[j];
-
                     n[j] = n[j + 1];
                     n[j + 1] = tmp;
                 }
@@ -43,5 +40,11 @@ public class Problema77 {
         }
 
         //Salida
+        System.out.println("");
+        System.out.println("Ordenado");
+        System.out.println("Numero 1 : " + n[0]);
+        System.out.println("Numero 2 : " + n[1]);
+        System.out.println("Numero 3 : " + n[2]);
+        System.out.println("Numero 4 : " + n[3]);
     }
 }
