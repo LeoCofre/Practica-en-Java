@@ -12,9 +12,9 @@ public class Problema82 {
         int i, j;
 
         //Arreglos
-        int a[][] = new int[2][2];
-        int b[][] = new int[2][2];
-        int c[][] = new int[2][2];
+        int[][] a = new int[2][2];
+        int[][] b = new int[2][2];
+        int[][] c = new int[2][2];
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class Problema82 {
         System.out.print(" Numero ( 1 , 1 ) : ");
         a[1][1] = teclado.nextInt();
 
-        System.out.println("");
+        System.out.println();
         System.out.println("Arreglo B: ");
         System.out.println(" =========== : ");
         System.out.print(" Numero (0 , 0 ) : ");
@@ -47,6 +47,13 @@ public class Problema82 {
                 c[i][j] = a[i][j] + b[i][j];
         }
 
-
+        //Salida
+        System.out.println();
+        System.out.println("Arreglo C : ");
+        System.out.println(" =========== : ");
+        System.out.println("Numero (0,0) " + c[0][0]);
+        System.out.println("Numero (0,1) " + c[0][1]);
+        System.out.println("Numero (1,0) " + c[1][0]);
+        System.out.println("Numero (1,1) " + c[1][1]);
     }
 }
