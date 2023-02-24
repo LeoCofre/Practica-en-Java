@@ -10,7 +10,7 @@ public class Problema81 {
         número buscado. Use el método de búsqueda secuencial.*/
 
         //Variables
-        int nb, i, j, pl, p2;
+        int nb, i, j, p1, p2;
         String r;
 
         //Arreglos
@@ -44,5 +44,31 @@ public class Problema81 {
         numeros[3][2] = teclado.nextInt();
         System.out.println("Numero a buscar");
         nb = teclado.nextInt();
+
+        //Proceso
+        r = "NO EXISTE";
+        p1 = -1;
+        p2 = -1;
+
+        for (i = 0; i <= 3; i++) {
+            for (j = 0; j <= 2; j++) {
+                if (numeros[i][j] == nb) {
+                    r = " SI EXISTE";
+
+                    p1 = i;
+                    p2 = j;
+                    break;
+                }
+            }
+            if (r.equals(" SI EXISTE"))
+                break;
+        }
+
+        //Salida
+        System.out.println();
+        System.out.println(" Respuesta : " + r);
+        System.out.println(" Posicion lera Dim . : " + p1);
+        System.out.println(" Posicion 2da Dim . : " + p2);
+
     }
 }
