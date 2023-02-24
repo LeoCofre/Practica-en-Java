@@ -28,5 +28,17 @@ public class Problema82 {
         a[1][0] = teclado.nextInt();
         System.out.print(" Numero ( 1 , 1 ) : ");
         a[1][1] = teclado.nextInt();
+
+        System.out.println("");
+        System.out.println("Arreglo B: ");
+        System.out.println(" =========== : ");
+        System.out.print(" Numero (0 , 0 ) : ");
+        b[0][0] = teclado .nextInt ();
+        System.out.print(" Numero (0 , 1) : ");
+        b[0][1] = teclado.nextInt();
+        System.out.print(" Numero ( 1 , 0 ) : ");
+        b[1][0] = teclado.nextInt();
+        System.out.print(" Numero ( 1 , 1) : ");
+        b[1][1] = teclado.nextInt();
     }
 }
