@@ -54,7 +54,6 @@ public class Problema81 {
             for (j = 0; j <= 2; j++) {
                 if (numeros[i][j] == nb) {
                     r = " SI EXISTE";
-
                     p1 = i;
                     p2 = j;
                     break;
