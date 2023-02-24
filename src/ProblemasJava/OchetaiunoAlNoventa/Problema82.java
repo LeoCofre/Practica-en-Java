@@ -33,12 +33,20 @@ public class Problema82 {
         System.out.println("Arreglo B: ");
         System.out.println(" =========== : ");
         System.out.print(" Numero (0 , 0 ) : ");
-        b[0][0] = teclado .nextInt ();
+        b[0][0] = teclado.nextInt();
         System.out.print(" Numero (0 , 1) : ");
         b[0][1] = teclado.nextInt();
         System.out.print(" Numero ( 1 , 0 ) : ");
         b[1][0] = teclado.nextInt();
         System.out.print(" Numero ( 1 , 1) : ");
         b[1][1] = teclado.nextInt();
+
+        //Proceso
+        for (i = 0; i <= 1; i++) {
+            for (j = 0; j <= 1; j++)
+                c[i][j] = a[i][j] + b[i][j];
+        }
+
+
     }
 }
