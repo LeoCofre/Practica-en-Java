@@ -18,6 +18,15 @@ public class Problema82 {
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
-        System.out.println();
+        System.out.println("Arreglo A: ");
+        System.out.println(" =========== : ");
+        System.out.print(" Numero (0 , 0 ) : ");
+        a[0][0] = teclado.nextInt();
+        System.out.print(" Numero (0 , 1) : ");
+        a[0][1] = teclado.nextInt();
+        System.out.print(" Numero (1 , 0 ) : ");
+        a[1][0] = teclado.nextInt();
+        System.out.print(" Numero ( 1 , 1 ) : ");
+        a[1][1] = teclado.nextInt();
     }
 }
