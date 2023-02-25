@@ -28,5 +28,16 @@ public class Problema83 {
         n[2][0] = teclado.nextInt();
         System.out.print(" Numero (2 , 1) : ");
         n[2][1] = teclado.nextInt();
+
+        //Proceso
+        m = n[0][0];
+        for (i = 0; i <= 2; i++) {
+            for (j = 0; j <= 1; j++) {
+                if (n[i][j ] > m)
+                m = n[i][j];
+            }
+        }
+
+
     }
 }
