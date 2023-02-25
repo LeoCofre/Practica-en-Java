@@ -39,6 +39,11 @@ public class Problema84 {
                     n[j + 1][0] = tmp;
 
                 }
+                if (n[j][1] > n[j + 1][1]) {
+                    tmp = n[j][1];
+                    n[j][1] = n[j + 1][1];
+                    n[j + 1][1] = tmp;
+                }
             }
         }
     }
