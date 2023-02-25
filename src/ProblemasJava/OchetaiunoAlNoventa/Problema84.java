@@ -16,17 +16,17 @@ public class Problema84 {
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
-        System.out.print(" Numero (0 , O) : ");
+        System.out.print("Numero (0 , O) : ");
         n[0][0] = teclado.nextInt();
-        System.out.print(" Numero (0 , 1) : ");
+        System.out.print("Numero (0 , 1) : ");
         n[1][1] = teclado.nextInt();
-        System.out.print(" Numero (1, 0 ): ");
+        System.out.print("Numero (1, 0 ): ");
         n[1][0] = teclado.nextInt();
-        System.out.print(" Numero (1 , 1 ): ");
+        System.out.print("Numero (1 , 1 ): ");
         n[1][1] = teclado.nextInt();
-        System.out.print(" Numero (2 , 0) : ");
+        System.out.print("Numero (2 , 0) : ");
         n[2][0] = teclado.nextInt();
-        System.out.print (" Numero (2 , 1 ): ");
+        System.out.print("Numero (2 , 1 ): ");
         n[2][1] = teclado.nextInt();
     }
 }
