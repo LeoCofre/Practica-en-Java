@@ -33,11 +33,14 @@ public class Problema83 {
         m = n[0][0];
         for (i = 0; i <= 2; i++) {
             for (j = 0; j <= 1; j++) {
-                if (n[i][j ] > m)
-                m = n[i][j];
+                if (n[i][j] > m)
+                    m = n[i][j];
             }
         }
 
+        //Salida
+        System.out.println();
+        System.out.println("Mayor : " + m);
 
     }
 }
