@@ -51,10 +51,10 @@ public class Problema84 {
         System.out.println();
         System.out.println("Ordenado por columnas ");
         System.out.println("Numero (0 , 0) : " + n[0][0]);
-        System.out.println(" Numero (0 , 1) : " + n[0][1]);
-        System.out.println(" Numero (1 , 0) : " + n[1][0]);
-        System.out.println(" Numero (1 , 1) : " + n[1][1]);
-        System.out.println(" Numero (2 , 0) : " + n[2][0]);
-        System.out.println(" Numero (2 , 1) : " + n[2][1]);
+        System.out.println("Numero (0 , 1) : " + n[0][1]);
+        System.out.println("Numero (1 , 0) : " + n[1][0]);
+        System.out.println("Numero (1 , 1) : " + n[1][1]);
+        System.out.println("Numero (2 , 0) : " + n[2][0]);
+        System.out.println("Numero (2 , 1) : " + n[2][1]);
     }
 }
