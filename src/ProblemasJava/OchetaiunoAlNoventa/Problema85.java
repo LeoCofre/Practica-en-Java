@@ -55,5 +55,26 @@ public class Problema85 {
                 }
             }
         }
+        x = 0;
+        for (i = 0; i <= 2; i++) {
+            for (j = 0; j <= 2; j++) {
+                n[i][j] = o[x];
+                x++;
+            }
+        }
+
+        //Salida
+        System.out.println();
+        System.out.println("Ordenado");
+        System.out.println("Número ( 0 , 0 )" + n[0][0]);
+        System.out.println("Número ( 0 , 1 )" + n[0][1]);
+        System.out.println("Número ( 0 , 2 )" + n[0][2]);
+        System.out.println("Número ( 1 , 0 )" + n[1][0]);
+        System.out.println("Número ( 1 , 1 )" + n[1][1]);
+        System.out.println("Número ( 1 , 2 )" + n[1][2]);
+        System.out.println("Número ( 2 , 0 )" + n[2][0]);
+        System.out.println("Número ( 2 , 1 )" + n[2][1]);
+        System.out.println("Número ( 2 , 2 )" + n[2][2]);
+
     }
 }
