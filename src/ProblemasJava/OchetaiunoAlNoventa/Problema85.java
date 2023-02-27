@@ -1,5 +1,7 @@
 package ProblemasJava.OchetaiunoAlNoventa;
 
+import java.util.Scanner;
+
 public class Problema85 {
 
     public static void main(String[] args) {
@@ -12,6 +14,10 @@ public class Problema85 {
         //Arreglos
         int[][] n =new int [3] [3];
         int[] o = new int[9];
+
+        //Entrada
+        Scanner teclado = new Scanner(System.in);
+
 
     }
 }
