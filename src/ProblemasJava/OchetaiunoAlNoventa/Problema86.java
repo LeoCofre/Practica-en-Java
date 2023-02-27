@@ -23,7 +23,5 @@ public class Problema86 {
         //Salida
         System.out.println();
         System.out.println("La cantidad de letras que contiene el nombre es: " + cantidad);
-
-
     }
 }
