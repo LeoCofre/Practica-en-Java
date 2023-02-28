@@ -20,7 +20,7 @@ public class Problema87 {
         apellido = teclado.nextLine();
 
         //Proceso
-        nombreApellidoMayuscula = (nombre +","+ apellido).toUpperCase();
+        nombreApellidoMayuscula = (nombre + "," + apellido).toUpperCase();
 
         //salida
         System.out.println("Nombre y apellido: " + nombreApellidoMayuscula);
