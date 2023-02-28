@@ -9,25 +9,25 @@ public class Problema90 {
         //Dado un carácter, determine si es una letra, número o símbolo.
 
         //Variables
-        String c, r;
-        int a;
+        String caracter, respuesta;
+        int ascii;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Caracter : ");
-        c = teclado.nextLine();
+        caracter = teclado.nextLine();
 
         //Proceso
-        a = c.toUpperCase().codePointAt(0);
-        if (a >= 48 && a <= 57)
-            r = " ES NUMERO";
-        else if (a >= 65 && a <= 90)
-            r = "ES LETRA";
+        ascii = caracter.toUpperCase().codePointAt(0);
+        if (ascii >= 48 && ascii <= 57)
+            respuesta = " ES NUMERO";
+        else if (ascii >= 65 && ascii <= 90)
+            respuesta = "ES LETRA";
         else
-            r = "ES SIMBOLO";
+            respuesta = "ES SIMBOLO";
 
         //Salida
         System.out.println();
-        System.out.println("El caracter ingresado: " + r);
+        System.out.println("El caracter ingresado: " + respuesta);
     }
 }
