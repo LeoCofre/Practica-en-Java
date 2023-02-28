@@ -20,23 +20,20 @@ public class Problema89 {
         letra = letra.toUpperCase();
         switch (letra) {
             case "A":
-                respuesta = " ES VOCAL";
-                break;
-            case " E":
-                respuesta = " ES VOCAL";
-                break;
-            case " I ":
-                respuesta = " ES VOCAL";
-                break;
+            case "E":
+            case "I":
             case "O":
-                respuesta = " ES VOCAL";
-                break;
             case "U":
                 respuesta = "ES VOCAL";
                 break;
             default:
-                respuesta = " NO ES VOCAL";
+                respuesta = "NO ES VOCAL";
                 break;
         }
+
+        //Salida
+        System.out.println();
+        System.out.println("La letra ingresada: " + respuesta);
+
     }
 }
