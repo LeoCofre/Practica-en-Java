@@ -14,5 +14,15 @@ public class Problema88 {
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese caracter: ");
+        caracter = teclado.nextLine();
+
+        //Proceso
+        ascii = caracter.codePointAt(0);
+
+        //Salida
+        System.out.println();
+        System.out.println("El código ASCII es: " + ascii);
+
     }
 }

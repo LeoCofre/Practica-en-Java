@@ -23,6 +23,7 @@ public class Problema87 {
         nombreApellidoMayuscula = (nombre + "," + apellido).toUpperCase();
 
         //salida
+        System.out.println();
         System.out.println("Nombre y apellido: " + nombreApellidoMayuscula);
 
     }
