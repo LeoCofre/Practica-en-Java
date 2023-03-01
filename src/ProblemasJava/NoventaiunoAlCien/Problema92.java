@@ -16,7 +16,7 @@ public class Problema92 {
         Cuarto  carácter del código: Cantidad de caracteres del nombre.*/
 
         //Variables
-        String primer, tercer, ultimo, l, nombre, codigo;
+        String primerCaracter, segundoCaracter, tercerCaracter, cuartoCaracter, nombre, codigo;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
@@ -24,11 +24,11 @@ public class Problema92 {
         nombre = teclado.nextLine();
 
         //Proceso
-        primer = nombre.substring(0, 1);
-        tercer = nombre.substring(2, 3);
-        ultimo = nombre.substring(nombre.length() - 1);
-        l = String.valueOf(nombre.trim().length());
-        codigo = (primer + tercer + ultimo + l).toUpperCase();
+        primerCaracter = nombre.substring(0, 1);
+        segundoCaracter = nombre.substring(2, 3);
+        tercerCaracter = nombre.substring(nombre.length() - 1);
+        cuartoCaracter = String.valueOf(nombre.trim().length());
+        codigo = (primerCaracter + segundoCaracter + tercerCaracter + cuartoCaracter).toUpperCase();
 
         //Salida
         System.out.println("");
