@@ -20,5 +20,9 @@ public class Problema93 {
         letra = scanner.nextLine();
 
         //Proceso
+        for (iterador = 0; iterador <= frase.length() - 1; iterador++) {
+            if (frase.toUpperCase().substring(iterador, iterador + 1).equals(letra.toUpperCase()))
+                cantidad++;
+        }
     }
 }
