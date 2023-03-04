@@ -15,5 +15,10 @@ public class Problema93 {
         //Entrada
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese una frase: ");
+        frase = scanner.nextLine();
+        System.out.println("Ingrese una letra: ");
+        letra = scanner.nextLine();
+
+        //Proceso
     }
 }
