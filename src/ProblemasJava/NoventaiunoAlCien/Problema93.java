@@ -24,5 +24,10 @@ public class Problema93 {
             if (frase.toUpperCase().substring(iterador, iterador + 1).equals(letra.toUpperCase()))
                 cantidad++;
         }
+
+        //Salida
+        System.out.println();
+        System.out.println("La cantidad de letras " + letra + " que contiene la frase ingresada es : " +
+                cantidad);
     }
 }
