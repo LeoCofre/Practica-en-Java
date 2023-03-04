@@ -22,18 +22,19 @@ public class Problema94 {
         p = 0;
         f1 = f1.trim();
         for (i = 0; i < f1.length(); i++) {
-        }
 
-        if (f1.substring(i, i + 1).equals(" ")) {
-            t = f1.substring(p, i);
-            p = i + 1;
-            f2 = f2 + t;
-            t = f1.substring(p, i);
-            f2 = f2 + t;
-        }
 
-        //Salida
-        System.out.println();
-        System.out.println("Frase sin espacios: " + f2);
+            if (f1.substring(i, i + 1).equals(" ")) {
+                t = f1.substring(p, i);
+                p = i + 1;
+                f2 = f2 + t;
+                t = f1.substring(p, i);
+                f2 = f2 + t;
+            }
+
+            //Salida
+            System.out.println();
+            System.out.println("Frase sin espacios: " + f2);
+        }
     }
 }
