@@ -10,31 +10,31 @@ public class Problema94 {
 
 
         //Variables
-        String f1, f2 = "", t;
-        int i, p;
+        String frase, fraseSinEspacios = "", temporal;
+        int iterador, posicion;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Frase : ");
-        f1 = teclado.nextLine();
+        frase = teclado.nextLine();
 
         //Proceso
-        p = 0;
-        f1 = f1.trim();
-        for (i = 0; i < f1.length(); i++) {
+        posicion = 0;
+        frase = frase.trim();
+        for (iterador = 0; iterador < frase.length(); iterador++) {
 
 
-            if (f1.substring(i, i + 1).equals(" ")) {
-                t = f1.substring(p, i);
-                p = i + 1;
-                f2 = f2 + t;
-                t = f1.substring(p, i);
-                f2 = f2 + t;
+            if (frase.charAt(iterador) == ' ') {
+                temporal = frase.substring(posicion, iterador);
+                posicion = iterador + 1;
+                fraseSinEspacios = fraseSinEspacios + temporal;
+                temporal = frase.substring(posicion, iterador);
+                fraseSinEspacios = fraseSinEspacios + temporal;
             }
 
             //Salida
             System.out.println();
-            System.out.println("Frase sin espacios: " + f2);
+            System.out.println("Frase sin espacios: " + fraseSinEspacios);
         }
     }
 }
