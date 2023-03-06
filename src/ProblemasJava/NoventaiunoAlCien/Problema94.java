@@ -4,10 +4,9 @@ import java.util.Scanner;
 
 public class Problema94 {
 
-    public static void main(String[] args) {
 
-        //Dado una frase devolver la frase sin espacio en blancos.
-
+    //Dado una frase devolver la frase sin espacio en blancos.
+/*
         //Variables
         String frase;
         StringBuilder fraseSinEspacios = new StringBuilder();
@@ -33,5 +32,35 @@ public class Problema94 {
         //Salida
         System.out.println();
         System.out.println("Frase sin espacios: " + fraseSinEspacios);
+    }*/
+
+    public static void main(String[] args) {
+
+        //Variables
+        String fl, f2 = "", t;
+        int i, p;
+
+        //Entrada
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Frase : ");
+        fl = teclado.nextLine();
+
+        //Proceso
+        p = 0;
+        fl = fl.trim();
+        for (i = 0; i < fl.length(); i++) {
+
+
+            if (fl.substring(i, i + 1).equals(" ")) {
+                t = fl.substring(p, i);
+                p = i + 1;
+                f2 = f2 + t;
+                t = fl.substring(p, i);
+                f2 = f2 + t;
+            }
+        }
+        // Salida
+        System.out.println("");
+        System.out.println(" Frase sin espacios: " + f2);
     }
 }
