@@ -32,6 +32,6 @@ public class Problema95 {
 
         //Salida
         System.out.println("");
-        System.out.println(" Frase sin espac ios: " + f2);
+        System.out.println("Frase sin espacios: " + f2);
     }
 }
