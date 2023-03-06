@@ -52,11 +52,11 @@ public class Problema94 {
             if (fl.substring(i, i + 1).equals(" ")) {
                 t = fl.substring(p, i);
                 p = i + 1;
-                f2 = f2 + t;
-                t = fl.substring(p, i);
-                f2 = f2 + t;
             }
         }
+        t = fl.substring(p, i);
+        f2 = f2 + t;
+
         // Salida
         System.out.println("");
         System.out.println(" Frase sin espacios: " + f2);
