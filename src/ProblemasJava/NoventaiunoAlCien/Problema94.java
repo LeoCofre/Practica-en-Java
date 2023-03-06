@@ -49,8 +49,6 @@ public class Problema94 {
         p = 0;
         fl = fl.trim();
         for (i = 0; i < fl.length(); i++) {
-
-
             if (fl.substring(i, i + 1).equals(" ")) {
                 t = fl.substring(p, i);
                 p = i + 1;
