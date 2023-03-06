@@ -9,7 +9,9 @@ public class Problema94 {
         //Dado una frase devolver la frase sin espacio en blancos.
 
         //Variables
-        String frase, fraseSinEspacios = "", temporal;
+        String frase;
+        StringBuilder fraseSinEspacios = new StringBuilder();
+        String temporal;
         int iterador, posicion;
 
         //Entrada
@@ -24,9 +26,9 @@ public class Problema94 {
             if (frase.charAt(iterador) == ' ') {
                 temporal = frase.substring(posicion, iterador);
                 posicion = iterador + 1;
-                fraseSinEspacios = fraseSinEspacios + temporal;
+                fraseSinEspacios.append(temporal);
                 temporal = frase.substring(posicion, iterador);
-                fraseSinEspacios = fraseSinEspacios + temporal;
+                fraseSinEspacios.append(temporal);
             }
         //Salida
         System.out.println();
