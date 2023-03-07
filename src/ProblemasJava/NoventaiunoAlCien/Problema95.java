@@ -10,8 +10,8 @@ public class Problema95 {
     siguiente caracteres del ASCII; ejemplo, si el carácter es A= 65, devolverá 6=66.*/
 
         //Variables
-        String frase, fraseInvertida = "", c;
-        int i, p;
+        String frase, fraseInvertida = "", contador;
+        int iterador, p;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
@@ -21,13 +21,13 @@ public class Problema95 {
         //Proceso
         p = 0;
         frase = frase.trim();
-        for (i = 0; i < frase.length();
-             i++) {
-            c = frase.substring(i, i + 1);
-            if (!c.equals(" ")) {
-                c = String.valueOf((char) (c.codePointAt(0) + 1));
+        for (iterador = 0; iterador < frase.length();
+             iterador++) {
+            contador = frase.substring(iterador, iterador + 1);
+            if (!contador.equals(" ")) {
+                contador = String.valueOf((char) (contador.codePointAt(0) + 1));
             }
-            fraseInvertida += c;
+            fraseInvertida += contador;
         }
 
         //Salida
