@@ -11,7 +11,7 @@ public class Problema95 {
 
         //Variables
         String frase, fraseInvertida = "", contador;
-        int iterador, p;
+        int iterador;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
@@ -19,7 +19,6 @@ public class Problema95 {
         frase = teclado.nextLine();
 
         //Proceso
-        p = 0;
         frase = frase.trim();
         for (iterador = 0; iterador < frase.length();
              iterador++) {
