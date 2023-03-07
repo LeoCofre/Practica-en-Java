@@ -10,7 +10,9 @@ public class Problema95 {
     siguiente caracteres del ASCII; ejemplo, si el carácter es A= 65, devolverá 6=66.*/
 
         //Variables
-        String frase, fraseInvertida = "", contador;
+        String frase;
+        StringBuilder fraseInvertida = new StringBuilder();
+        String contador;
         int iterador;
 
         //Entrada
@@ -20,13 +22,12 @@ public class Problema95 {
 
         //Proceso
         frase = frase.trim();
-        for (iterador = 0; iterador < frase.length();
-             iterador++) {
+        for (iterador = 0; iterador < frase.length(); iterador++) {
             contador = frase.substring(iterador, iterador + 1);
             if (!contador.equals(" ")) {
                 contador = String.valueOf((char) (contador.codePointAt(0) + 1));
             }
-            fraseInvertida += contador;
+            fraseInvertida.append(contador);
         }
 
         //Salida
