@@ -10,28 +10,28 @@ public class Problema95 {
     siguiente caracteres del ASCII; ejemplo, si el carácter es A= 65, devolverá 6=66.*/
 
         //Variables
-        String fl, f2 = "", c;
+        String frase, fraseInvertida = "", c;
         int i, p;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Frase : ");
-        fl = teclado.nextLine();
+        frase = teclado.nextLine();
 
         //Proceso
         p = 0;
-        fl = fl.trim();
-        for (i = 0; i < fl.length();
+        frase = frase.trim();
+        for (i = 0; i < frase.length();
              i++) {
-            c = fl.substring(i, i + 1);
+            c = frase.substring(i, i + 1);
             if (!c.equals(" ")) {
                 c = String.valueOf((char) (c.codePointAt(0) + 1));
             }
-            f2 += c;
+            fraseInvertida += c;
         }
 
         //Salida
         System.out.println();
-        System.out.println("La frase en caracteres es: " + f2);
+        System.out.println("La frase en caracteres es: " + fraseInvertida);
     }
 }
