@@ -4,10 +4,13 @@ import java.util.Scanner;
 
 public class Problema97 {
 
-    //Principal
-    public static void main(String[] args) {
-//Variables
+        public static void main(String[] args) {
 
+            /*Dado dos números enteros diferentes, devolver el número mayor. Cree una función para
+            resolver el problema.
+            */
+
+         //Variables
         int n1, n2, m = 0;
 
         //Entrada
