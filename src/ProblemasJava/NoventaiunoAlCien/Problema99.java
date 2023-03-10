@@ -18,7 +18,7 @@ public class Problema99 {
         n = teclado.nextInt();
 
         //Proceso
-        e = CantidadDigitos(n);
+        e = cantidadDigitos(n);
 
         //Salida
         System.out.println("");
@@ -26,7 +26,7 @@ public class Problema99 {
     }
 
     //Método Cantidad Digitos
-    private static int CantidadDigitos(int num) {
+    private static int cantidadDigitos(int num) {
 
         //Variables
         int c = 0;
