@@ -20,14 +20,14 @@ public class Problema98 {
         n = teclado.nextInt();
 
         //Proceso
-        Parimpar(n, r);
+        parImpar(n, r);
 
         // Salida
         System.out.println("");
         System.out.println(" Resultado : " + r[0]);
     }
 
-    private static void Parimpar(int num, String res[]) {
+    private static void parImpar(int num, String res[]) {
 
         //Variables
         String r = "";
