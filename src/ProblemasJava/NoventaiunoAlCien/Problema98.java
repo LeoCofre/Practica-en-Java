@@ -36,7 +36,7 @@ public class Problema98 {
         if (num % 2 == 0) {
             r = "PAR";
         } else {
-            r = " IMPAR";
+            r = "IMPAR";
         }
 
         //Salida
