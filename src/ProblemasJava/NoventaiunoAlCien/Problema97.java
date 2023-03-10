@@ -21,7 +21,7 @@ public class Problema97 {
         n2 = teclado.nextInt();
 
         //Proceso
-        m = Mayor(n1, n2);
+        m = mayor(n1, n2);
 
         //Salida
         System.out.println("");
@@ -29,7 +29,7 @@ public class Problema97 {
     }
 
     //Método Mayor
-    private static int Mayor(int n1, int n2) {
+    private static int mayor(int n1, int n2) {
 
         //Variables
 
