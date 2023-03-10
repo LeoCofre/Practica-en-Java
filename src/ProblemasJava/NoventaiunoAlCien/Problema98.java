@@ -27,7 +27,7 @@ public class Problema98 {
         System.out.println(" Resultado : " + r[0]);
     }
 
-    private static void parImpar(int num, String res[]) {
+    private static void parImpar(int num, String[] res) {
 
         //Variables
         String r = "";
