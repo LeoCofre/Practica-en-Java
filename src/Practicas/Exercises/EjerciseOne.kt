@@ -7,7 +7,7 @@ La cantidad exacta de notificaciones cuando haya menos de 100
 99+ como cantidad de notificaciones cuando haya 100 o más
 */
 
-/*
+/* Salida
 -You have 51 notifications.
 -Your phone is blowing up! You have 99+ notifications.
 */
