@@ -1,5 +1,7 @@
 package ProblemasJava.CientounoAlCientocinco;
 
+import java.util.Scanner;
+
 public class Problema103 {
 
     /*Ingrese 6 números en una matriz de 3x2 y obtenga el numero mayor ingresado. Cree una
@@ -15,5 +17,20 @@ public class Problema103 {
 
         //Arreglos
         int[][] n = new int[3][2];
+
+        //Entrada
+        Scanner teclado = new Scanner(System.in);
+        System.out.print(" Numero (0 , 0 ) : ");
+        n[0][0] = teclado.nextInt();
+        System.out.print(" Numero (0 , 1 ) : ");
+        n[0][1] = teclado.nextInt();
+        System.out.print(" Numero (1 , 0) : ");
+        n[1][0] = teclado.nextInt();
+        System.out.print(" Numero (1 , 1) : ");
+        n[1][1] = teclado.nextInt();
+        System.out.print(" Numero (2 , 0) : ");
+        n[2][0] = teclado.nextInt();
+        System.out.print(" Numero (2 , 1 ) : ");
+        n[2] [1] =teclado.nextInt();
     }
 }
