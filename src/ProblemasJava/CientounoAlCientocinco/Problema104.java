@@ -30,7 +30,7 @@ public class Problema104 {
         System.out.print(" Numero ( 1 , 1) : ");
         a[1][1] = teclado.nextInt();
         System.out.println();
-        9System.ou't.println("Arreglo B: ");
+        System.out.println("Arreglo B: ");
         System.out.println(" =========== : ");
         System.out.print(" Numero (0 , 0) : ");
         b[0][0] = teclado.nextInt();
