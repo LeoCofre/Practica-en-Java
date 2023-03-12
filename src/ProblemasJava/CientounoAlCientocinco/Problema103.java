@@ -34,7 +34,7 @@ public class Problema103 {
         n[2][1] = teclado.nextInt();
 
         //Proceso
-        m = Mayor(n);
+        m = mayor(n);
 
         //Salida
         System.out.println("");
@@ -42,7 +42,7 @@ public class Problema103 {
     }
 
     //Método Mayor
-    private static int Mayor(int num[][]) {
+    private static int mayor(int num[][]) {
 
         //Variables
         int m, i, j;
