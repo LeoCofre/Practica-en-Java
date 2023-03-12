@@ -41,7 +41,7 @@ public class Problema102 {
         System.out.println(" Numero 4 : " + n[3]);
     }
 
-    private static void Ordenar(int num[]) {
+    private static void Ordenar(int[] num) {
 
         //Variables
         int tmp, i, j, LI, LS;
