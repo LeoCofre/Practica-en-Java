@@ -30,7 +30,7 @@ public class Problema101 {
         n[4] = teclado.nextInt();
 
         //Proceso
-        s = Sumar(n);
+        s = sumar(n);
 
         //Salida
         System.out.println("");
@@ -39,7 +39,7 @@ public class Problema101 {
     }
 
     //Método Sumar
-    private static int Sumar(int[] num) {
+    private static int sumar(int[] num) {
 
         //Variables
         int s = 0, i;
