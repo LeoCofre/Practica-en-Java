@@ -11,14 +11,14 @@ public class Problema101 {
     public static void main(String[] args) {
 
         //Variables
-        int S = 0, i;
+        int s = 0, i;
 
         //Arreglos
         int[] n = new int[5];
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
-        System.out.print ("Numero 1 : ");
+        System.out.print("Numero 1 : ");
         n[0] = teclado.nextInt();
         System.out.print("Numero 2 : ");
         n[1] = teclado.nextInt();
@@ -29,5 +29,26 @@ public class Problema101 {
         System.out.print("Numero 5 : ");
         n[4] = teclado.nextInt();
 
+        //Proceso
+        s = Sumar(n);
+
+        //Salida
+        System.out.println("");
+        System.out.println(" Suma : " + s);
+
+    }
+
+    //Método Sumar
+    private static int Sumar(int[] num) {
+
+        //Variables
+        int s = 0, i;
+
+        //Proceso
+        for (i = 0; i <= 4; i++)
+            s += num[i];
+
+        //Salida
+        return s;
     }
 }
