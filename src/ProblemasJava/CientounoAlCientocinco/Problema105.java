@@ -30,7 +30,7 @@ public class Problema105 {
     }
 
     //Método Frase Sin Espacios
-    private static String fraseSinEspacios(String Frase) {
+    private static String fraseSinEspacios(String frase) {
 
         //Variables
         StringBuilder f = new StringBuilder();
@@ -39,16 +39,16 @@ public class Problema105 {
 
         //Proceso
         p = 0;
-        Frase = Frase.trim();
-        for (i = 0; i < Frase.length(); i++) {
+        frase = frase.trim();
+        for (i = 0; i < frase.length(); i++) {
 
-            if (Frase.charAt(i) == ' ') {
-                t = Frase.substring(p, i);
+            if (frase.charAt(i) == ' ') {
+                t = frase.substring(p, i);
                 p = i + 1;
                 f.append(t);
             }
         }
-        t = Frase.substring(p, i);
+        t = frase.substring(p, i);
         f.append(t);
 
         //Salida
