@@ -14,26 +14,27 @@ public class Problema105 {
     public static void main(String[] args) {
 
         //Variables
-        String fl, f2;
+        String frase, fraseSinEspacios;
 
         //Entrada
         Scanner teclado = new Scanner(System.in);
         System.out.print("Frase : ");
-        fl = teclado.nextLine();
+        frase = teclado.nextLine();
 
         //Proceso
-        f2 = FraseSinEspacios(fl);
+        fraseSinEspacios = fraseSinEspacios(frase);
 
         //Salida
         System.out.println("");
-        System.out.println("Frase sin espacios: " + f2);
+        System.out.println("Frase sin espacios: " + fraseSinEspacios);
     }
 
     //Método Frase Sin Espacios
-    private static String FraseSinEspacios(String Frase) {
+    private static String fraseSinEspacios(String Frase) {
 
         //Variables
-        String f = "", t;
+        StringBuilder f = new StringBuilder();
+        String t;
         int i, p;
 
         //Proceso
@@ -44,13 +45,13 @@ public class Problema105 {
             if (Frase.charAt(i) == ' ') {
                 t = Frase.substring(p, i);
                 p = i + 1;
-                f = f + t;
+                f.append(t);
             }
         }
         t = Frase.substring(p, i);
-        f = f + t;
+        f.append(t);
 
         //Salida
-        return f;
+        return f.toString();
     }
 }
