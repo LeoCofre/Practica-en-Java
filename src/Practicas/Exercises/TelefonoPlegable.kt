@@ -12,3 +12,17 @@ FoldablePhone que se herede de la clase Phone. Debe contener lo siguiente:
 -Un comportamiento de función switchOn() diferente del de la clase Phone para que solo encienda la pantalla cuando el teléfono no esté plegado
 -Métodos para cambiar el estado de plegado
 */
+class Phone(var isScreenLightOn: Boolean = false){
+    fun switchOn() {
+        isScreenLightOn = true
+    }
+
+    fun switchOff() {
+        isScreenLightOn = false
+    }
+
+    fun checkPhoneScreenLight() {
+        val phoneScreenLight = if(isScreenLightOn) "on" else "off"
+        println("The phone screen's light is $phoneScreenLight.")
+    }
+}
