@@ -9,7 +9,8 @@ En el código inicial que se proporciona en el siguiente fragmento de código, e
 imprima los detalles del perfil de una persona.*/
 
 fun main() {
-    val amanda = Person("Amanda", 33, "play tennis", null)
+    val abril = Person("Abril",39,"program",null)
+    val amanda = Person("Amanda", 33, "play tennis", abril)
     val atiqah = Person("Atiqah", 28, "climb", amanda)
 
     amanda.showProfile()
