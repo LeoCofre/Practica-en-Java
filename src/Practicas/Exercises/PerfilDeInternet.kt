@@ -13,6 +13,7 @@ fun main() {
     val amanda = Person("Amanda", 33, "play tennis", abril)
     val atiqah = Person("Atiqah", 28, "climb", amanda)
 
+    abril.showProfile()
     amanda.showProfile()
     atiqah.showProfile()
 }
