@@ -1,3 +1,5 @@
+package Practicas
+
 class Fizzbuzz {
 
     fun main() {
