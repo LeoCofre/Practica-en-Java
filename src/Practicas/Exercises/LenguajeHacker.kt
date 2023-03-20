@@ -65,6 +65,6 @@ fun leetTranslator(text: String): String {
 
 fun main() {
     println(leetTranslator("Leet"))
-    println(leetTranslator("Aquí está un texto de prueba para ver si funciona el reto!"))
+    println(leetTranslator("Todo lo que escribamos aqui se va a tranformar a lenguaje hacker"))
     println(leetTranslator(readLine() ?: ""))
 }
