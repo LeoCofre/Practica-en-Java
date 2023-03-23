@@ -10,6 +10,7 @@ package Practicas.Exercises
  * (Pudiendo combinar todos estos parámetros entre ellos)
  */
 
-fun paswordGenerator(){
+fun passwordGenerator(leght, capital,numbers, symbols ){
 
+    return ""
 }
