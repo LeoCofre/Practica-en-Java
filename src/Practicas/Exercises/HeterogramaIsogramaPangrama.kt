@@ -1,5 +1,7 @@
 package Practicas.Exercises
 
+import java.util.*
+
 /*
  * Crea 3 funciones, cada una encargada de detectar si una cadena de
  * texto es un heterograma, un isograma o un pangrama.
@@ -8,28 +10,18 @@ package Practicas.Exercises
 fun main() {
     esHeterograma("letra")
     esIsograma("espacio")
-    esPangrama()
+    esPangrama("Un jugoso zumo de piña y kiwi bien frío es exquisito y no lleva alcohol")
 }
 
 fun esHeterograma(palabra: String): Boolean {
-
-// Creamos un set vacío para almacenar las letras de la palabra
     val letras = mutableSetOf<Char>()
-
-    // Recorremos la palabra letra por letra
     for (letra in palabra) {
-        // Si la letra ya está en el set, no es un heterograma
         if (letra in letras) {
             return false
         }
-
-        // Agregamos la letra al set
         letras.add(letra)
     }
-
-    // Si llegamos hasta aquí, es un heterograma
     return true
-
 }
 
 fun esIsograma(palabra: String): Boolean {
@@ -44,6 +36,12 @@ fun esIsograma(palabra: String): Boolean {
 }
 
 
-fun esPangrama() {
-
+fun esPangrama(texto: String): Boolean {
+    val letras = mutableSetOf<Char>()
+    for (caracter in texto.lowercase(Locale.getDefault())) {
+        if (caracter.isLetter()) {
+            letras.add(caracter)
+        }
+    }
+    return letras.size == 26
 }
