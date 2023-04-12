@@ -7,7 +7,7 @@ package Practicas.Exercises
  */
 fun main() {
     esHeterograma("letra")
-    esIsograma()
+    esIsograma("espacio")
     esPangrama()
 }
 
@@ -32,9 +32,17 @@ fun esHeterograma(palabra: String): Boolean {
 
 }
 
-fun esIsograma() {
-
+fun esIsograma(palabra: String): Boolean {
+    val letras = mutableSetOf<Char>()
+    for (letra in palabra) {
+        if (letra in letras) {
+            return false
+        }
+        letras.add(letra)
+    }
+    return true
 }
+
 
 fun esPangrama() {
 
