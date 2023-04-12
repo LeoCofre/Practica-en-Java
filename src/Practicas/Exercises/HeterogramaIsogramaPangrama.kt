@@ -5,14 +5,20 @@ package Practicas.Exercises
  * texto es un heterograma, un isograma o un pangrama.
  * - Debes buscar la definición de cada uno de estos términos.
  */
+fun main() {
+    heterograma()
+    isograma()
+    pangrama()
+}
 
-
-fun heterograma(){
+fun heterograma() {
 
 }
- fun isograma(){
 
- }
-fun pangrama(){
+fun isograma() {
+
+}
+
+fun pangrama() {
 
 }
