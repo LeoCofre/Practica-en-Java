@@ -6,19 +6,36 @@ package Practicas.Exercises
  * - Debes buscar la definición de cada uno de estos términos.
  */
 fun main() {
-    heterograma()
-    isograma()
-    pangrama()
+    esHeterograma("letra")
+    esIsograma()
+    esPangrama()
 }
 
-fun heterograma() {
+fun esHeterograma(palabra: String): Boolean {
+
+// Creamos un set vacío para almacenar las letras de la palabra
+    val letras = mutableSetOf<Char>()
+
+    // Recorremos la palabra letra por letra
+    for (letra in palabra) {
+        // Si la letra ya está en el set, no es un heterograma
+        if (letra in letras) {
+            return false
+        }
+
+        // Agregamos la letra al set
+        letras.add(letra)
+    }
+
+    // Si llegamos hasta aquí, es un heterograma
+    return true
 
 }
 
-fun isograma() {
+fun esIsograma() {
 
 }
 
-fun pangrama() {
+fun esPangrama() {
 
 }
