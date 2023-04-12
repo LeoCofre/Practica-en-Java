@@ -8,7 +8,7 @@ import java.util.*
  * - Debes buscar la definición de cada uno de estos términos.
  */
 fun main() {
-    esHeterograma("letra")
+    esHeterograma("cisterna")
     esIsograma("espacio")
     esPangrama("Un jugoso zumo de piña y kiwi bien frío es exquisito y no lleva alcohol")
 }
